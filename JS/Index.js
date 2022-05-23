@@ -430,11 +430,11 @@ class Screen {
             break;
 
           case "LOW":
-            trtr.setAttribute("style","background: #f1ca6d");
+            trtr.setAttribute("style","background: #ffbeac");
             break;
 
           case "BOTTOM":
-            trtr.setAttribute("style","background: #ff7500");
+            trtr.setAttribute("style","background: #f26800");
             break;
 
           case "ELIMINATED":
