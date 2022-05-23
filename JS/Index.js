@@ -756,6 +756,10 @@ class ActingChallenge{
   {
 
     let Top = [
+    "You were serving, and left us gagging for more.",
+    "You had this challenge in the bag.",
+    "You wished upon a star, and your dreams came true.",
+    "Tonight, you played to your strengths, and you came out on top.",
     "Tonight, you knew how to work it OUT!",
     "Tonight, you shined all over this runway.",
     "You ruled over this runway.",
@@ -775,6 +779,11 @@ class ActingChallenge{
   {
 
     let Btm = [
+    ", This week, you wore your heart on your sleeve, but your mind got the better of you",
+    ", You are a smart cookie, but tonight, you crumbled.",
+    ", The judges were Mad About You — but not in a good way.",
+    ", You were channeling Pink, but your performance was beige",
+    ", You showed us that big girls do cry.",
     ", you came here to slay, but tonight your outfit slayed you.",
     ", on the runway, you ran out of gas.",
     ", tonight the judges did not say yes to the dress.",
