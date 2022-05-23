@@ -4211,7 +4211,6 @@ let rita = new Queen("Rita Baga", 8, 10, 12, 6, 10, 8, 12, 8, 10, 4, 1, "Rita", 
 let scarlettbobo = new Queen("Scarlett BoBo", 12, 10, 8, 8, 10, 11, 13, 12, 10, 4, 1, "ScarlettBoBo", "ScarlettBoBo", "CA1", false);
 let tynomi = new Queen("Tynomi Banks", 6, 7, 9, 12, 8, 8, 13, 12, 10, 4, 2, "Tynomi", "Tynomi", "CA1", false);
 
-
 let US14 = [willowp, ladyc, bosco, angeria, dayab, dejas, jorgeous, jasminek, kerrik, maddym, kornbread, alyssah, orions, junej ];
 
 let willowp = new Queen("Willow Pill", 10, 11, 7, 12, 9, 10, 5, 6, 12, 5, 0, "Willow", "Willow", "US14", false);
