@@ -4198,6 +4198,21 @@ let james = new Queen("James Ross", 14, 10, 12, 6, 12, 10, 14, 12, 8, 1, 4, "Jam
 
 let US2 = [jessicaw, jujus2, morganmcs2, mystique, npb, pandoras2, sahara, shangela, kylies2, tatis2, james];
 
+let willowp = new Queen("Willow Pill", 10, 11, 7, 12, 9, 10, 5, 6, 12, 5, 0, "Willow", "Willow", "US14", false);
+let ladyc = new Queen("Lady Camden", 10, 11, 7, 12, 9, 10, 5, 6, 12, 5, 0, "Lady", "Lady", "US14", false);
+let bosco = new Queen("Bosco", 8, 9, 12, 8, 7, 6, 15, 10, 13, 3, 1, "Bosco", "Bosco", "US14", false);
+let angeria = new Queen("Angeria Paris Vanmicahels", 8, 7, 6, 10, 13, 10, 11, 8, 14, 2, 4, "Angeria","Angeria","US14",false);
+let dayab = new Queen("Daya Betty", 6, 8, 9, 11, 7, 5, 10, 8, 14, 2, 2, "Daya", "Daya", "US14", false);
+let dejas = new Queen("Deja Skye", 7, 6, 8, 4, 8, 10, 7, 5, 5, 4, 0, "Deja", "Deja", "US14", false);
+let jorgeous = new Queen("Jorgeous", 8, 9 ,12, 7, 5, 5, 6, 7, 10, 4, 1, "Jorgeous", "Jorgeous", "US14",false);
+let jasminek = new Queen("jasmine Kennedie", 8, 6, 8, 14, 5, 8, 14, 10, 9, 5, 0, "Jasmine", "Jasmine", "US14", false);
+let kerric = new Queen("Kerri Colby", 8, 6, 8, 7, 2, 5, 5, 10, 12, 2, 2, "Kerri", "Kerri", "US14", false);
+let maddym = new Queen("Maddy Morphosis", 8, 7, 5, 8, 10, 10, 13, 8, 10, 4, 0, "Maddy", "Maddy", "US14", false);
+let kornbread = new Queen("Kornbread Jete", 8, 10, 12, 8, 5, 8, 9, 5, 14, 3, 3, "Kornbread", "Kornbread", "US14", false);
+let alyssah = new Queen("Alyssa Hunter", 14, 10, 12, 6, 12, 10, 14, 12, 8, 1, 4, "Alyssa", "Alyssa", "US14", false);
+
+let US14 = [willowp, ladyc, bosco, angeria, dayab, dejas, jorgeous, jasminek, kerric, maddym, kornbread, alyssah, orions, junej ];
+
 let anastarzia = new Queen("Anastarzia Anaquway", 7, 6, 8, 7, 9, 8, 6, 8, 10, 5, 0, "Anastarzia", "Anastarzia", "CA1", false);
 let boa = new Queen("BOA", 7, 9, 9, 7, 6, 5, 5, 9, 12, 3, 0, "BOA", "Boa", "CA1", false);
 let ilona = new Queen("Ilona Verley", 6, 7, 9, 7, 9, 8, 11, 8, 8, 2, 4, "Ilona", "Ilona","CA1",false);
@@ -4210,10 +4225,6 @@ let priyanka = new Queen("Priyanka", 8, 12, 13, 10, 6, 8, 15, 13, 12, 4, 2, "Pri
 let rita = new Queen("Rita Baga", 8, 10, 12, 6, 10, 8, 12, 8, 10, 4, 1, "Rita", "Rita", "CA1", false);
 let scarlettbobo = new Queen("Scarlett BoBo", 12, 10, 8, 8, 10, 11, 13, 12, 10, 4, 1, "ScarlettBoBo", "ScarlettBoBo", "CA1", false);
 let tynomi = new Queen("Tynomi Banks", 6, 7, 9, 12, 8, 8, 13, 12, 10, 4, 2, "Tynomi", "Tynomi", "CA1", false);
-
-let US14 = [willowp, ladyc, bosco, angeria, dayab, dejas, jorgeous, jasminek, kerrik, maddym, kornbread, alyssah, orions, junej ];
-
-let willowp = new Queen("Willow Pill", 10, 11, 7, 12, 9, 10, 5, 6, 12, 5, 0, "Willow", "Willow", "US14", false);
 
 let CA1 = [anastarzia,boa,ilona,jimbo,juice,kiara,kyne,lemon,priyanka,rita,scarlettbobo,tynomi];
 
