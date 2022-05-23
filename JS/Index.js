@@ -756,6 +756,12 @@ class ActingChallenge{
   {
 
     let Top = [
+    "This week, you gave us green, eggs, and hammed it up.",
+    "This week, you spun straw into gold.",
+    "Not only did you turn it out, girl, you turned it upside down.",
+    "Tonight, you didn’t just kill it. You were a mass murderer.",
+    "This week, you came, you saw, and you came again.",
+    "You navigated this challenge beautifully, and we were swept away.",
     "You were serving, and left us gagging for more.",
     "You had this challenge in the bag.",
     "You wished upon a star, and your dreams came true.",
@@ -779,6 +785,23 @@ class ActingChallenge{
   {
 
     let Btm = [
+    ", Concerning your head, I’m afraid there have been some complaints.",
+    ", You aimed high, but your routine was a buzzkill.",
+    ", You’re a good sport, but this week, you fumbled the ball.",
+    ", You are a lovable queen, but — and it’s quite an impressive but — your punchlines flatlined.",
+    ", You are a fierce queen, but this week, you put the ain’t in entertaintment.",
+    ", In your performance, you put your left foot forward. Both of them",
+    ", Your jokes got lost in the shade.",
+    ", Your big opening was a little sloppy.",
+    ", You went for the comedy gold, but all we got was bronze.",
+    ", Your performance was a real departure, but to a destination unknown.",
+    ", You, my dear, are one wild child. But in this week’s challenge, you were eaten alive.",
+    ", Your Thick and Juicy was a bit too loosey-goosey.",
+    ", You light up our lives, but this week, you let the other queens outshine you.",
+    ", You made a meal out of this challenge, but it left a bad taste in some of the judges’ mouths.",
+    ", You and a sewing machine are a recipe for disaster.",
+    ", Your personality is off the hook, but your runway fashions looked off the rack.",
+    ", Your runway strut was pure vogue. But your outfit was vague.",
     ", This week, you wore your heart on your sleeve, but your mind got the better of you",
     ", You are a smart cookie, but tonight, you crumbled.",
     ", The judges were Mad About You — but not in a good way.",
