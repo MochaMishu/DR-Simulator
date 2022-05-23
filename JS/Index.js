@@ -42,7 +42,7 @@ class Season {
     if(this.currentCast.length==0)
       for(let i =0; i < this.fullCast.length; i++)
       {
-        
+
         this.currentCast.push(this.fullCast[i]);
       }
 
@@ -61,7 +61,7 @@ class Season {
     this.miniwinners = [];
 
     this.events = [];
-    
+
     this.actingchallenges = 0;
     this.balls = 0;
     this.choreochallenges = 0;
@@ -283,9 +283,9 @@ class Screen {
       default:
         text.setAttribute("style","font-size: 16px;");
         break;
-        
+
     }
-    
+
     text.innerHTML = Text;
     this.MainScreen.append(text);
   }
@@ -311,7 +311,7 @@ class Screen {
   let image = document.createElement("img");
   image.src = Source;
   image.setAttribute("style", 'margin: 7px; width: 105px; height: 105px; border-radius: 20px; border: 3px solid; border-color: '+Color+';');
-  this.MainScreen.appendChild(image); 
+  this.MainScreen.appendChild(image);
   }
 
   createImageBW(Source, Color)
@@ -319,7 +319,7 @@ class Screen {
   let image = document.createElement("img");
   image.src = Source;
   image.setAttribute("style", 'margin: 7px; width: 105px; height: 105px; border-radius: 20px;  border: 3px solid; -webkit-filter: grayscale(100%);filter: grayscale(100%); border-color: '+Color+';');
-  this.MainScreen.appendChild(image); 
+  this.MainScreen.appendChild(image);
   }
 
   createVideo(Country)
@@ -357,17 +357,17 @@ class Screen {
     let thead = document.createElement("thead");
 
     table.setAttribute("class","tr");
-  
+
     let tbody = document.createElement("tbody");
-  
+
     let treps = document.createElement("tr");
-  
+
     let thq = document.createElement("th");
     thq.innerHTML = "Queens";
-    
+
     thq.setAttribute("class","tr");
     treps.append(thq);
-  
+
     for(let i = 0; i < CurrentSeason.episodes.length; i++)
     {
       let thep = document.createElement("th");
@@ -404,7 +404,7 @@ class Screen {
           case "WINNER":
             trtr.setAttribute("style","background: #ffda54; font-weight: bold;");
             break;
-            
+
           case "RUNNER UP":
             trtr.setAttribute("style","background: ##fffff; font-weight: bold;");
             break;
@@ -418,13 +418,13 @@ class Screen {
             break;
 
           case "WIN":
-            trtr.setAttribute("style","background: #9F60CE; font-weight: bold;");
+            trtr.setAttribute("style","background: #000bdf; font-weight: bold;");
             break;
-          
+
           case "HIGH":
             trtr.setAttribute("style","background: #E183C8");
             break;
-          
+
           case "SAFE":
             trtr.setAttribute("style","background: #F6C2EB");
             break;
@@ -487,7 +487,7 @@ class Screen {
           case "WINNER":
             trtr.setAttribute("style","background: #ffda54; font-weight: bold;");
             break;
-            
+
           case "RUNNER UP":
             trtr.setAttribute("style","background: ##fffff; font-weight: bold;");
             break;
@@ -503,11 +503,11 @@ class Screen {
           case "WIN":
             trtr.setAttribute("style","background: #9F60CE; font-weight: bold;");
             break;
-          
+
           case "HIGH":
             trtr.setAttribute("style","background: #E183C8");
             break;
-          
+
           case "SAFE":
             trtr.setAttribute("style","background: #F6C2EB");
             break;
@@ -666,9 +666,9 @@ class Screen {
             tr2.append(td);
           }
           tbody.append(tr2);
-          
+
         }
-        
+
       }
       table.append(thead);
       table.append(tbody);
@@ -754,7 +754,7 @@ class ActingChallenge{
 
   TopPlacement()
   {
-    
+
     let Top = [
     "Tonight, you knew how to work it OUT!",
     "Tonight, you shined all over this runway.",
@@ -773,7 +773,7 @@ class ActingChallenge{
 
   BtmPlacement()
   {
-    
+
     let Btm = [
     ", you came here to slay, but tonight your outfit slayed you.",
     ", on the runway, you ran out of gas.",
@@ -828,8 +828,8 @@ class ActingChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-      
-  
+
+
       if(SlayedChallenge.length!=0)
       {
         for(let i = 0; i < SlayedChallenge.length; i++)
@@ -853,7 +853,7 @@ class ActingChallenge{
         }
         Main.createText(slayedtext+" slayed the challenge.", "Bold");
       }
-  
+
       if(GreatChallenge.length!=0)
       {
         for(let i = 0; i < GreatChallenge.length; i++)
@@ -877,7 +877,7 @@ class ActingChallenge{
         }
         Main.createText(greattext+" had a great performance.", "Bold");
       }
-  
+
       if(GoodChallenge.length!=0)
       {
         for(let i = 0; i < GoodChallenge.length; i++)
@@ -901,7 +901,7 @@ class ActingChallenge{
         }
         Main.createText(goodtext+" had a good performance.", "Bold");
       }
-  
+
       if(BadChallenge.length!=0)
       {
         for(let i = 0; i < BadChallenge.length; i++)
@@ -925,7 +925,7 @@ class ActingChallenge{
         }
         Main.createText(badtext+" had a bad performance.", "Bold");
       }
-  
+
       if(FloppedChallenge.length!=0)
       {
         for(let i = 0; i < FloppedChallenge.length; i++)
@@ -991,8 +991,8 @@ class ActingChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-      
-  
+
+
       if(SlayedRunway.length!=0)
       {
         for(let i = 0; i < SlayedRunway.length; i++)
@@ -1016,7 +1016,7 @@ class ActingChallenge{
         }
         Main.createText(slayedtext+" slayed the runway.", "Bold");
       }
-  
+
       if(GreatRunway.length!=0)
       {
         for(let i = 0; i < GreatRunway.length; i++)
@@ -1040,7 +1040,7 @@ class ActingChallenge{
         }
         Main.createText(greattext+" had a great runway.", "Bold");
       }
-  
+
       if(GoodRunway.length!=0)
       {
         for(let i = 0; i < GoodRunway.length; i++)
@@ -1064,7 +1064,7 @@ class ActingChallenge{
         }
         Main.createText(goodtext+" had a good runway.", "Bold");
       }
-  
+
       if(BadRunway.length!=0)
       {
         for(let i = 0; i < BadRunway.length; i++)
@@ -1088,7 +1088,7 @@ class ActingChallenge{
         }
         Main.createText(badtext+" had a bad runway.", "Bold");
       }
-  
+
       if(FloppedRunway.length!=0)
       {
         for(let i = 0; i < FloppedRunway.length; i++)
@@ -1224,7 +1224,7 @@ class ImprovChallenge{
 
   TopPlacement()
   {
-    
+
     let Top = [
     "Tonight, you knew how to work it OUT!",
     "Tonight, you shined all over this runway.",
@@ -1243,7 +1243,7 @@ class ImprovChallenge{
 
   BtmPlacement()
   {
-    
+
     let Btm = [
     ", you came here to slay, but tonight your outfit slayed you.",
     ", on the runway, you ran out of gas.",
@@ -1298,8 +1298,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-      
-  
+
+
       if(SlayedChallenge.length!=0)
       {
         for(let i = 0; i < SlayedChallenge.length; i++)
@@ -1323,7 +1323,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the challenge.", "Bold");
       }
-  
+
       if(GreatChallenge.length!=0)
       {
         for(let i = 0; i < GreatChallenge.length; i++)
@@ -1347,7 +1347,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great performance.", "Bold");
       }
-  
+
       if(GoodChallenge.length!=0)
       {
         for(let i = 0; i < GoodChallenge.length; i++)
@@ -1371,7 +1371,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good performance.", "Bold");
       }
-  
+
       if(BadChallenge.length!=0)
       {
         for(let i = 0; i < BadChallenge.length; i++)
@@ -1395,7 +1395,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad performance.", "Bold");
       }
-  
+
       if(FloppedChallenge.length!=0)
       {
         for(let i = 0; i < FloppedChallenge.length; i++)
@@ -1461,8 +1461,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-      
-  
+
+
       if(SlayedRunway.length!=0)
       {
         for(let i = 0; i < SlayedRunway.length; i++)
@@ -1486,7 +1486,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the runway.", "Bold");
       }
-  
+
       if(GreatRunway.length!=0)
       {
         for(let i = 0; i < GreatRunway.length; i++)
@@ -1510,7 +1510,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great runway.", "Bold");
       }
-  
+
       if(GoodRunway.length!=0)
       {
         for(let i = 0; i < GoodRunway.length; i++)
@@ -1534,7 +1534,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good runway.", "Bold");
       }
-  
+
       if(BadRunway.length!=0)
       {
         for(let i = 0; i < BadRunway.length; i++)
@@ -1558,7 +1558,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad runway.", "Bold");
       }
-  
+
       if(FloppedRunway.length!=0)
       {
         for(let i = 0; i < FloppedRunway.length; i++)
@@ -1653,7 +1653,7 @@ class ImprovChallenge{
 
   TopPlacement()
   {
-    
+
     let Top = [
     "Tonight, your choreography blew us away.",
     "Tonight, we saw how bright you shine.",
@@ -1667,7 +1667,7 @@ class ImprovChallenge{
 
   BtmPlacement()
   {
-    
+
     let Btm = [
     ", your comedy could have used a few laugh.",
     ", on the runway, you ran out of gas.",
@@ -1722,8 +1722,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-      
-  
+
+
       if(SlayedChallenge.length!=0)
       {
         for(let i = 0; i < SlayedChallenge.length; i++)
@@ -1747,7 +1747,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the challenge.", "Bold");
       }
-  
+
       if(GreatChallenge.length!=0)
       {
         for(let i = 0; i < GreatChallenge.length; i++)
@@ -1771,7 +1771,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great performance.", "Bold");
       }
-  
+
       if(GoodChallenge.length!=0)
       {
         for(let i = 0; i < GoodChallenge.length; i++)
@@ -1795,7 +1795,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good performance.", "Bold");
       }
-  
+
       if(BadChallenge.length!=0)
       {
         for(let i = 0; i < BadChallenge.length; i++)
@@ -1819,7 +1819,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad performance.", "Bold");
       }
-  
+
       if(FloppedChallenge.length!=0)
       {
         for(let i = 0; i < FloppedChallenge.length; i++)
@@ -1885,8 +1885,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-      
-  
+
+
       if(SlayedRunway.length!=0)
       {
         for(let i = 0; i < SlayedRunway.length; i++)
@@ -1910,7 +1910,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the runway.", "Bold");
       }
-  
+
       if(GreatRunway.length!=0)
       {
         for(let i = 0; i < GreatRunway.length; i++)
@@ -1934,7 +1934,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great runway.", "Bold");
       }
-  
+
       if(GoodRunway.length!=0)
       {
         for(let i = 0; i < GoodRunway.length; i++)
@@ -1958,7 +1958,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good runway.", "Bold");
       }
-  
+
       if(BadRunway.length!=0)
       {
         for(let i = 0; i < BadRunway.length; i++)
@@ -1982,7 +1982,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad runway.", "Bold");
       }
-  
+
       if(FloppedRunway.length!=0)
       {
         for(let i = 0; i < FloppedRunway.length; i++)
@@ -2009,7 +2009,7 @@ class ImprovChallenge{
     }
   }
 
-  
+
   class CommercialChallenge{
 
     constructor(){
@@ -2024,9 +2024,9 @@ class ImprovChallenge{
         "need to create commercials for a new dating app.",
         "need to create commercial about forgotten firsts outs queens."
       ];
-  
+
       this.chosen = getRandomInt(0,this.commercial.length-1);
-  
+
       this.episodename = "";
       switch(this.chosen)
       {
@@ -2053,7 +2053,7 @@ class ImprovChallenge{
           break;
       }
     }
-  
+
     createMessage()
     {
       switch(getRandomInt(0,1))
@@ -2072,15 +2072,15 @@ class ImprovChallenge{
           break;
       }
     }
-  
+
     createBrief()
     {
       Main.createText("This week, the queens will "+this.commercial[this.chosen]);
     }
-  
+
     TopPlacement()
     {
-      
+
       let Top = [
       "Tonight, your choreography blew us away.",
       "Tonight, we saw how bright you shine.",
@@ -2091,10 +2091,10 @@ class ImprovChallenge{
       ];
       return(Top[getRandomInt(0,Top.length-1)]);
     }
-  
+
     BtmPlacement()
     {
-      
+
       let Btm = [
       ", your comedy could have used a few laugh.",
       ", on the runway, you ran out of gas.",
@@ -2106,16 +2106,16 @@ class ImprovChallenge{
       ];
       return(Btm[getRandomInt(0,Btm.length-1)]);
     }
-  
+
     rankPerfomances()
     {
         for(let i = 0; i < CurrentSeason.currentCast.length;i++)
         {
           CurrentSeason.currentCast[i].GetCommercial();
         }
-  
+
         CurrentSeason.currentCast.sort((a, b) => a.perfomancescore - b.perfomancescore);
-  
+
         for(let i = 0; i<CurrentSeason.currentCast.length; i++)
         {
           if(CurrentSeason.currentCast[i].perfomancescore<=8)
@@ -2139,9 +2139,9 @@ class ImprovChallenge{
             FloppedChallenge.push(CurrentSeason.currentCast[i]);
           }
         }
-  
+
     }
-  
+
       createPerformances()
       {
         let slayedtext = "";
@@ -2149,8 +2149,8 @@ class ImprovChallenge{
         let goodtext = "";
         let badtext = "";
         let floptext = "";
-        
-    
+
+
         if(SlayedChallenge.length!=0)
         {
           for(let i = 0; i < SlayedChallenge.length; i++)
@@ -2174,7 +2174,7 @@ class ImprovChallenge{
           }
           Main.createText(slayedtext+" slayed the challenge.", "Bold");
         }
-    
+
         if(GreatChallenge.length!=0)
         {
           for(let i = 0; i < GreatChallenge.length; i++)
@@ -2198,7 +2198,7 @@ class ImprovChallenge{
           }
           Main.createText(greattext+" had a great performance.", "Bold");
         }
-    
+
         if(GoodChallenge.length!=0)
         {
           for(let i = 0; i < GoodChallenge.length; i++)
@@ -2222,7 +2222,7 @@ class ImprovChallenge{
           }
           Main.createText(goodtext+" had a good performance.", "Bold");
         }
-    
+
         if(BadChallenge.length!=0)
         {
           for(let i = 0; i < BadChallenge.length; i++)
@@ -2246,7 +2246,7 @@ class ImprovChallenge{
           }
           Main.createText(badtext+" had a bad performance.", "Bold");
         }
-    
+
         if(FloppedChallenge.length!=0)
         {
           for(let i = 0; i < FloppedChallenge.length; i++)
@@ -2271,7 +2271,7 @@ class ImprovChallenge{
           Main.createText(floptext+" flopped the challenge.", "Bold");
         }
       }
-  
+
       rankRunways()
       {
         for(let i = 0; i < CurrentSeason.currentCast.length;i++)
@@ -2279,7 +2279,7 @@ class ImprovChallenge{
           CurrentSeason.currentCast[i].getRunway();
           CurrentSeason.currentCast[i].finalscore = CurrentSeason.currentCast[i].perfomancescore - CurrentSeason.currentCast[i].runway;
         }
-  
+
         for(let i = 0; i<CurrentSeason.currentCast.length; i++)
         {
           if(CurrentSeason.currentCast[i].runwayscore<=8)
@@ -2304,7 +2304,7 @@ class ImprovChallenge{
           }
         }
       }
-  
+
       createRunways()
       {
         let slayedtext = "";
@@ -2312,8 +2312,8 @@ class ImprovChallenge{
         let goodtext = "";
         let badtext = "";
         let floptext = "";
-        
-    
+
+
         if(SlayedRunway.length!=0)
         {
           for(let i = 0; i < SlayedRunway.length; i++)
@@ -2337,7 +2337,7 @@ class ImprovChallenge{
           }
           Main.createText(slayedtext+" slayed the runway.", "Bold");
         }
-    
+
         if(GreatRunway.length!=0)
         {
           for(let i = 0; i < GreatRunway.length; i++)
@@ -2361,7 +2361,7 @@ class ImprovChallenge{
           }
           Main.createText(greattext+" had a great runway.", "Bold");
         }
-    
+
         if(GoodRunway.length!=0)
         {
           for(let i = 0; i < GoodRunway.length; i++)
@@ -2385,7 +2385,7 @@ class ImprovChallenge{
           }
           Main.createText(goodtext+" had a good runway.", "Bold");
         }
-    
+
         if(BadRunway.length!=0)
         {
           for(let i = 0; i < BadRunway.length; i++)
@@ -2409,7 +2409,7 @@ class ImprovChallenge{
           }
           Main.createText(badtext+" had a bad runway.", "Bold");
         }
-    
+
         if(FloppedRunway.length!=0)
         {
           for(let i = 0; i < FloppedRunway.length; i++)
@@ -2451,9 +2451,9 @@ class ImprovChallenge{
         "need to create a commercial about their own drink.",
         "need to create a commercial about their yeast spread.",
       ];
-  
+
       this.chosen = getRandomInt(0,this.commercial.length-1);
-  
+
       this.episodename = "";
       switch(this.chosen)
       {
@@ -2483,7 +2483,7 @@ class ImprovChallenge{
           break;
       }
     }
-  
+
     createMessage()
     {
       switch(getRandomInt(0,1))
@@ -2502,15 +2502,15 @@ class ImprovChallenge{
           break;
       }
     }
-  
+
     createBrief()
     {
       Main.createText("This week, the queens will "+this.commercial[this.chosen]);
     }
-  
+
     TopPlacement()
     {
-      
+
       let Top = [
       "Tonight, your choreography blew us away.",
       "Tonight, we saw how bright you shine.",
@@ -2521,10 +2521,10 @@ class ImprovChallenge{
       ];
       return(Top[getRandomInt(0,Top.length-1)]);
     }
-  
+
     BtmPlacement()
     {
-      
+
       let Btm = [
       ", your comedy could have used a few laugh.",
       ", on the runway, you ran out of gas.",
@@ -2536,16 +2536,16 @@ class ImprovChallenge{
       ];
       return(Btm[getRandomInt(0,Btm.length-1)]);
     }
-  
+
     rankPerfomances()
     {
         for(let i = 0; i < CurrentSeason.currentCast.length;i++)
         {
           CurrentSeason.currentCast[i].GetCommercial();
         }
-  
+
         CurrentSeason.currentCast.sort((a, b) => a.perfomancescore - b.perfomancescore);
-  
+
         for(let i = 0; i<CurrentSeason.currentCast.length; i++)
         {
           if(CurrentSeason.currentCast[i].perfomancescore<=8)
@@ -2569,9 +2569,9 @@ class ImprovChallenge{
             FloppedChallenge.push(CurrentSeason.currentCast[i]);
           }
         }
-  
+
     }
-  
+
       createPerformances()
       {
         let slayedtext = "";
@@ -2579,8 +2579,8 @@ class ImprovChallenge{
         let goodtext = "";
         let badtext = "";
         let floptext = "";
-        
-    
+
+
         if(SlayedChallenge.length!=0)
         {
           for(let i = 0; i < SlayedChallenge.length; i++)
@@ -2604,7 +2604,7 @@ class ImprovChallenge{
           }
           Main.createText(slayedtext+" slayed the challenge.", "Bold");
         }
-    
+
         if(GreatChallenge.length!=0)
         {
           for(let i = 0; i < GreatChallenge.length; i++)
@@ -2628,7 +2628,7 @@ class ImprovChallenge{
           }
           Main.createText(greattext+" had a great performance.", "Bold");
         }
-    
+
         if(GoodChallenge.length!=0)
         {
           for(let i = 0; i < GoodChallenge.length; i++)
@@ -2652,7 +2652,7 @@ class ImprovChallenge{
           }
           Main.createText(goodtext+" had a good performance.", "Bold");
         }
-    
+
         if(BadChallenge.length!=0)
         {
           for(let i = 0; i < BadChallenge.length; i++)
@@ -2676,7 +2676,7 @@ class ImprovChallenge{
           }
           Main.createText(badtext+" had a bad performance.", "Bold");
         }
-    
+
         if(FloppedChallenge.length!=0)
         {
           for(let i = 0; i < FloppedChallenge.length; i++)
@@ -2701,7 +2701,7 @@ class ImprovChallenge{
           Main.createText(floptext+" flopped the challenge.", "Bold");
         }
       }
-  
+
       rankRunways()
       {
         for(let i = 0; i < CurrentSeason.currentCast.length;i++)
@@ -2709,7 +2709,7 @@ class ImprovChallenge{
           CurrentSeason.currentCast[i].getRunway();
           CurrentSeason.currentCast[i].finalscore = CurrentSeason.currentCast[i].perfomancescore - CurrentSeason.currentCast[i].runway;
         }
-  
+
         for(let i = 0; i<CurrentSeason.currentCast.length; i++)
         {
           if(CurrentSeason.currentCast[i].runwayscore<=8)
@@ -2734,7 +2734,7 @@ class ImprovChallenge{
           }
         }
       }
-  
+
       createRunways()
       {
         let slayedtext = "";
@@ -2742,8 +2742,8 @@ class ImprovChallenge{
         let goodtext = "";
         let badtext = "";
         let floptext = "";
-        
-    
+
+
         if(SlayedRunway.length!=0)
         {
           for(let i = 0; i < SlayedRunway.length; i++)
@@ -2767,7 +2767,7 @@ class ImprovChallenge{
           }
           Main.createText(slayedtext+" slayed the runway.", "Bold");
         }
-    
+
         if(GreatRunway.length!=0)
         {
           for(let i = 0; i < GreatRunway.length; i++)
@@ -2791,7 +2791,7 @@ class ImprovChallenge{
           }
           Main.createText(greattext+" had a great runway.", "Bold");
         }
-    
+
         if(GoodRunway.length!=0)
         {
           for(let i = 0; i < GoodRunway.length; i++)
@@ -2815,7 +2815,7 @@ class ImprovChallenge{
           }
           Main.createText(goodtext+" had a good runway.", "Bold");
         }
-    
+
         if(BadRunway.length!=0)
         {
           for(let i = 0; i < BadRunway.length; i++)
@@ -2839,7 +2839,7 @@ class ImprovChallenge{
           }
           Main.createText(badtext+" had a bad runway.", "Bold");
         }
-    
+
         if(FloppedRunway.length!=0)
         {
           for(let i = 0; i < FloppedRunway.length; i++)
@@ -2939,7 +2939,7 @@ class ImprovChallenge{
 
   TopPlacement()
   {
-    
+
     let Top = [
     "Tonight, you knew how to get the laugh out of us.",
     "Tonight, we saw how bright you shine.",
@@ -2954,7 +2954,7 @@ class ImprovChallenge{
 
   BtmPlacement()
   {
-    
+
     let Btm = [
     ", your comedy could have used a few laugh.",
     ", on the runway, you ran out of gas.",
@@ -3009,8 +3009,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-      
-  
+
+
       if(SlayedChallenge.length!=0)
       {
         for(let i = 0; i < SlayedChallenge.length; i++)
@@ -3034,7 +3034,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the challenge.", "Bold");
       }
-  
+
       if(GreatChallenge.length!=0)
       {
         for(let i = 0; i < GreatChallenge.length; i++)
@@ -3058,7 +3058,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great performance.", "Bold");
       }
-  
+
       if(GoodChallenge.length!=0)
       {
         for(let i = 0; i < GoodChallenge.length; i++)
@@ -3082,7 +3082,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good performance.", "Bold");
       }
-  
+
       if(BadChallenge.length!=0)
       {
         for(let i = 0; i < BadChallenge.length; i++)
@@ -3106,7 +3106,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad performance.", "Bold");
       }
-  
+
       if(FloppedChallenge.length!=0)
       {
         for(let i = 0; i < FloppedChallenge.length; i++)
@@ -3172,8 +3172,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-      
-  
+
+
       if(SlayedRunway.length!=0)
       {
         for(let i = 0; i < SlayedRunway.length; i++)
@@ -3197,7 +3197,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the runway.", "Bold");
       }
-  
+
       if(GreatRunway.length!=0)
       {
         for(let i = 0; i < GreatRunway.length; i++)
@@ -3221,7 +3221,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great runway.", "Bold");
       }
-  
+
       if(GoodRunway.length!=0)
       {
         for(let i = 0; i < GoodRunway.length; i++)
@@ -3245,7 +3245,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good runway.", "Bold");
       }
-  
+
       if(BadRunway.length!=0)
       {
         for(let i = 0; i < BadRunway.length; i++)
@@ -3269,7 +3269,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad runway.", "Bold");
       }
-  
+
       if(FloppedRunway.length!=0)
       {
         for(let i = 0; i < FloppedRunway.length; i++)
@@ -3455,8 +3455,8 @@ class FinalChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-      
-  
+
+
       if(SlayedChallenge.length!=0)
       {
         for(let i = 0; i < SlayedChallenge.length; i++)
@@ -3480,7 +3480,7 @@ class FinalChallenge{
         }
         Main.createText(slayedtext+" slayed the challenge.", "Bold");
       }
-  
+
       if(GreatChallenge.length!=0)
       {
         for(let i = 0; i < GreatChallenge.length; i++)
@@ -3504,7 +3504,7 @@ class FinalChallenge{
         }
         Main.createText(greattext+" had a great performance.", "Bold");
       }
-  
+
       if(GoodChallenge.length!=0)
       {
         for(let i = 0; i < GoodChallenge.length; i++)
@@ -3528,7 +3528,7 @@ class FinalChallenge{
         }
         Main.createText(goodtext+" had a good performance.", "Bold");
       }
-  
+
       if(BadChallenge.length!=0)
       {
         for(let i = 0; i < BadChallenge.length; i++)
@@ -3552,7 +3552,7 @@ class FinalChallenge{
         }
         Main.createText(badtext+" had a bad performance.", "Bold");
       }
-  
+
       if(FloppedChallenge.length!=0)
       {
         for(let i = 0; i < FloppedChallenge.length; i++)
@@ -3618,8 +3618,8 @@ class FinalChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-      
-  
+
+
       if(SlayedRunway.length!=0)
       {
         for(let i = 0; i < SlayedRunway.length; i++)
@@ -3643,7 +3643,7 @@ class FinalChallenge{
         }
         Main.createText(slayedtext+" slayed the runway.", "Bold");
       }
-  
+
       if(GreatRunway.length!=0)
       {
         for(let i = 0; i < GreatRunway.length; i++)
@@ -3667,7 +3667,7 @@ class FinalChallenge{
         }
         Main.createText(greattext+" had a great runway.", "Bold");
       }
-  
+
       if(GoodRunway.length!=0)
       {
         for(let i = 0; i < GoodRunway.length; i++)
@@ -3691,7 +3691,7 @@ class FinalChallenge{
         }
         Main.createText(goodtext+" had a good runway.", "Bold");
       }
-  
+
       if(BadRunway.length!=0)
       {
         for(let i = 0; i < BadRunway.length; i++)
@@ -3715,7 +3715,7 @@ class FinalChallenge{
         }
         Main.createText(badtext+" had a bad runway.", "Bold");
       }
-  
+
       if(FloppedRunway.length!=0)
       {
         for(let i = 0; i < FloppedRunway.length; i++)
@@ -3790,7 +3790,7 @@ class DesignChallenge{
 
   TopPlacement()
   {
-    
+
     let Top = [
     "Tonight, you knew how to work it OUT!",
     "Tonight, you shined all over this runway.",
@@ -3809,7 +3809,7 @@ class DesignChallenge{
 
   BtmPlacement()
   {
-    
+
     let Btm = [
     ", you came here to slay, but tonight your outfit slayed you.",
     ", on the runway, you ran out of gas.",
@@ -3875,7 +3875,7 @@ class DesignChallenge{
     let goodtext = "";
     let badtext = "";
     let floptext = "";
-    
+
 
     if(SlayedChallenge.length!=0)
     {
@@ -4327,7 +4327,7 @@ function Finale()
           break;
 
         case 2:
-          
+
 
           if(CurrentSeason.currentCast[0].favoritism>=10)
           {
@@ -4354,7 +4354,7 @@ function Finale()
           }
           Steps++;
           break;
-          
+
         case 3:
           for (let q = 0; q < CurrentSeason.eliminatedCast.length; q++) {
             CurrentSeason.eliminatedCast[q].trackrecord.push('GUEST');
@@ -4407,7 +4407,7 @@ function Finale()
           CurrentEpisode = new Episode("The Grand Finale", "Finale");
           CurrentSeason.episodes.push(CurrentEpisode);
           done = true;
-          
+
           if(CurrentSeason.currentCast[0].finalescore > 30 && CurrentSeason.currentCast[1].finalescore > 30)
           {
             Main.createImage(CurrentSeason.currentCast[0].image,"#ffb300");
@@ -4604,7 +4604,7 @@ function Placements() {
         Steps = 0;
       }
     }
-    
+
   if(Tops.length == 0 && Bottoms.length == 0)
   {
     Main.createButton("Proceed", "Lipsync()");
@@ -4615,12 +4615,12 @@ function Placements() {
   }
 
 }
-  
+
 
 function Lipsync() {
   Main = new Screen();
   Main.clean();
-    
+
 
   switch(Steps){
     case 0:
@@ -4708,7 +4708,7 @@ function Lipsync() {
       {
         BottomQueens[1].placement= CurrentSeason.fullCast.length-CurrentSeason.eliminatedCast.length;
       }
-      
+
 
       CurrentSeason.currentCast.splice(CurrentSeason.currentCast.indexOf(BottomQueens[1]),1);
       CurrentSeason.eliminatedCast.unshift(BottomQueens[1]);
@@ -4754,7 +4754,7 @@ function GenerateChallenge()
     {
       if(CurrentSeason.currentCast[i].miniwinner == true && CurrentChallenge.boxes.indexOf(CurrentChallenge.chosen) == -1)
       {
-        
+
         Main.createImage(CurrentSeason.currentCast[i].image,'blue');
         Main.createText(CurrentSeason.currentCast[i].GetName()+" as the winner of this week mini-challenge! You get 15 seconds of advance on the other queens.");
         Main.createLine();
@@ -4802,7 +4802,7 @@ function GenerateChallenge()
 
 function GetPromoTable()
   {
-    
+
     SlayedChallenge = [];
     GreatChallenge = [];
     GoodChallenge = [];
@@ -4829,7 +4829,7 @@ function GetPromoTable()
     Main.createBigText("Placements");
     Main.clean();
     Main.createPromoTable();
-    
+
     if(CurrentSeason.episodes.length == 0)
     {
       Main.createButton("Proceed","Intro()");
@@ -4841,7 +4841,7 @@ function GetPromoTable()
   }
 
 function LaunchMiniChallenge()
-{ 
+{
   Main = new Screen();
   Main.createBigText("In the workroom...");
   document.body.style.backgroundImage = 'url("Images/Backgrounds/Workroom.png")';
@@ -4914,7 +4914,7 @@ function ChallengeAnnouncement(){
 
     Announcement = new Screen();
     Announcement.clean();
-    
+
     Announcement.createRupaulAnnouncement("Welcome queens!");
     Announcement.createRupaulAnnouncement("First of all let me give you all a warm welcome.");
     Announcement.createRupaulAnnouncement("You all made it here. You are all the very best.");
