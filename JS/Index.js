@@ -501,27 +501,27 @@ class Screen {
             break;
 
           case "WIN":
-            trtr.setAttribute("style","background: #9F60CE; font-weight: bold;");
+            trtr.setAttribute("style","background: #007dff; font-weight: bold;");
             break;
 
           case "HIGH":
-            trtr.setAttribute("style","background: #E183C8");
+            trtr.setAttribute("style","background: #a9e0f1");
             break;
 
           case "SAFE":
-            trtr.setAttribute("style","background: #F6C2EB");
+            trtr.setAttribute("style","background: #ffffff");
             break;
 
           case "LOW":
-            trtr.setAttribute("style","background: #F5A9B4");
+            trtr.setAttribute("style","background: #ffbeac");
             break;
 
           case "BOTTOM":
-            trtr.setAttribute("style","background: #EF7183");
+            trtr.setAttribute("style","background: #df632b");
             break;
 
-          case "ELIMINATED":
-            trtr.setAttribute("style","background: #E41A37; font-weight: bold;");
+          case "ELIM":
+            trtr.setAttribute("style","background: #e30e0e; font-weight: bold;");
             break;
 
           default:
