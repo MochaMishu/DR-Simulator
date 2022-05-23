@@ -418,15 +418,15 @@ class Screen {
             break;
 
           case "WIN":
-            trtr.setAttribute("style","background: #434cff; font-weight: bold;");
+            trtr.setAttribute("style","background: #007dff; font-weight: bold;");
             break;
 
           case "HIGH":
-            trtr.setAttribute("style","background: #d2feff");
+            trtr.setAttribute("style","background: #a9e0f1");
             break;
 
           case "SAFE":
-            trtr.setAttribute("style","background: #f3f3f3");
+            trtr.setAttribute("style","background: #ffffff");
             break;
 
           case "LOW":
@@ -434,11 +434,11 @@ class Screen {
             break;
 
           case "BOTTOM":
-            trtr.setAttribute("style","background: #f26800");
+            trtr.setAttribute("style","background: #df632b");
             break;
 
-          case "ELIMINATED":
-            trtr.setAttribute("style","background: #ff0000; font-weight: bold;");
+          case "ELIM":
+            trtr.setAttribute("style","background: #e30e0e; font-weight: bold;");
             break;
 
           default:
