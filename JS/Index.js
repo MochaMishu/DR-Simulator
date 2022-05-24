@@ -965,7 +965,13 @@ class Rusical{
   {
 
     let Top = [
-    "Tonight, you knew how to work it OUT!",
+    "Tonight, you played to your strengths, and you came out on top.",
+    "You wished upon a star, and your dreams came true.",
+    "You had this challenge in the bag.",
+    "You navigated this challenge beautifully, and we were swept away.",
+    "Tonight, you didn’t just kill it. You were a mass murderer.",
+    "Not only did you turn it out, girl, you turned it upside down.",
+    "Tonight, you werked it OUT!",
     "Tonight, you shined all over this runway.",
     "You ruled over this runway.",
     "You made gold out of randomness.",
@@ -984,6 +990,9 @@ class Rusical{
   {
 
     let Btm = [
+    ", You light up our lives, but this week, you let the other queens outshine you.",
+    ", You made a meal out of this challenge, but it left a bad taste in some of the judges’ mouths.",
+    ", You are a smart cookie, but tonight, you crumbled.",
     ", you came here to slay, but tonight your outfit slayed you.",
     ", on the runway, you ran out of gas.",
     ", tonight the judges did not say yes to the dress.",
@@ -2291,6 +2300,10 @@ class ImprovChallenge{
   {
 
     let Top = [
+    "Tonight, you played to your strengths, and you came out on top.",
+    "You had this challenge in the bag.",
+    "You navigated this challenge beautifully, and we were swept away.",
+    "Not only did you turn it out, girl, you turned it upside down.",
     "Tonight, your choreography blew us away.",
     "Tonight, we saw how bright you shine.",
     "You have dancing running throught your veins.",
@@ -2305,7 +2318,14 @@ class ImprovChallenge{
   {
 
     let Btm = [
-    ", your comedy could have used a few laugh.",
+    ", You light up our lives, but this week, you let the other queens outshine you.",
+    ", You, my dear, are one wild child. But in this week’s challenge, you were eaten alive.",
+    ", Your performance was a real departure, but to a destination unknown.",
+    ", Your big opening was a little sloppy.",
+    ", In your performance, you put your left foot forward. Both of them",
+    ", You are a fierce queen, but this week, you put the ain’t in entertaintment.",
+    ", You’re a good sport, but this week, you fumbled the ball.",
+    ", You aimed high, but your routine was a buzzkill.",
     ", on the runway, you ran out of gas.",
     ", tonight the judges did not say yes to the dress.",
     ", your outfit had a story. A very confusing one.",
@@ -2719,6 +2739,9 @@ class ImprovChallenge{
     {
 
       let Top = [
+      "You were serving, and left us gagging for more.",
+      "Tonight, you played to your strengths, and you came out on top.",
+      "Not only did you turn it out, girl, you turned it upside down.",
       "Tonight, your choreography blew us away.",
       "Tonight, we saw how bright you shine.",
       "You have dancing running throught your veins.",
@@ -2733,6 +2756,9 @@ class ImprovChallenge{
     {
 
       let Btm = [
+      ", The judges were Mad About You — but not in a good way.",
+      ", You went for the comedy gold, but all we got was bronze.",
+      ", You are a fierce queen, but this week, you put the ain’t in entertaintment.",
       ", your comedy could have used a few laugh.",
       ", on the runway, you ran out of gas.",
       ", tonight the judges did not say yes to the dress.",
@@ -3580,6 +3606,9 @@ class ImprovChallenge{
   {
 
     let Top = [
+    "Tonight, you played to your strengths, and you came out on top.",
+    "You navigated this challenge beautifully, and we were swept away.",
+    "Tonight, you didn’t just kill it. You were a mass murderer.",
     "Tonight, you knew how to get the laugh out of us.",
     "Tonight, we saw how bright you shine.",
     "You have comedy running throught your veins.",
@@ -3595,6 +3624,10 @@ class ImprovChallenge{
   {
 
     let Btm = [
+    ", You light up our lives, but this week, you let the other queens outshine you.",
+    ", This week, you wore your heart on your sleeve, but your mind got the better of you",
+    ", You are a smart cookie, but tonight, you crumbled.",
+    ", You showed us that big girls do cry.",
     ", your comedy could have used a few laugh.",
     ", on the runway, you ran out of gas.",
     ", tonight the judges did not say yes to the dress.",
@@ -4432,6 +4465,13 @@ class DesignChallenge{
   {
 
     let Top = [
+    "You wished upon a star, and your dreams came true.",
+    "Tonight, you played to your strengths, and you came out on top.",
+    "You had this challenge in the bag.",
+    "You were serving, and left us gagging for more.",
+    "You navigated this challenge beautifully, and we were swept away.",
+    "Not only did you turn it out, girl, you turned it upside down.",
+    "This week, you spun straw into gold.",
     "Tonight, you knew how to work it OUT!",
     "Tonight, you shined all over this runway.",
     "You ruled over this runway.",
@@ -4451,6 +4491,10 @@ class DesignChallenge{
   {
 
     let Btm = [
+    ", You and a sewing machine are a recipe for disaster.",
+    ", Your personality is off the hook, but your runway fashions looked off the rack.",
+    ", Your runway strut was pure vogue. But your outfit was vague.",
+    ", The judges were Mad About You — but not in a good way.",
     ", you came here to slay, but tonight your outfit slayed you.",
     ", on the runway, you ran out of gas.",
     ", tonight the judges did not say yes to the dress.",
