@@ -4785,19 +4785,19 @@ let beth = new Queen("Beth", 8, 9, 10, 6, 5, 10, 8, 10, 10, 4, 0, "Beth", "Beth"
 let stephanie = new Queen("Stephanie Prince", 8, 9, 7, 6, 10, 12, 10, 14, 10, 4 , 0, "Stephanie", "Stephanie", "CA2", false);
 
 let CA2 = shuffle([icesis, kendall, eve, giam, pythia, adriana, kimoraa, synthia, suki, oceane, beth, stephanie]);
-
-let anastarzia = new Queen("Anastarzia Anaquway", 7, 6, 8, 7, 9, 8, 6, 8, 10, 5, 0, "Anastarzia", "Anastarzia", "CA1", false);
-let boa = new Queen("BOA", 7, 9, 9, 7, 6, 5, 5, 9, 12, 3, 0, "BOA", "Boa", "CA1", false);
-let ilona = new Queen("Ilona Verley", 6, 7, 9, 7, 9, 8, 11, 8, 8, 2, 4, "Ilona", "Ilona","CA1",false);
-let jimbo = new Queen("Jimbo", 12, 10, 14, 4, 8, 7, 3, 9, 12, 2, 4, "Jimbo", "Jimbo", "CA1", false);
+//acting,improv,comedy,dance,design,runway,lipsync,branding,charisma
+let anastarzia = new Queen("Anastarzia Anaquway", 7, 6, 8, 6, 9, 8, 6, 8, 10, 5, 0, "Anastarzia", "Anastarzia", "CA1", false);
+let boa = new Queen("BOA", 8, 9, 10, 7, 6, 5, 7, 9, 12, 3, 0, "BOA", "Boa", "CA1", false);
+let ilona = new Queen("Ilona Verley", 6, 7, 9, 6, 9, 8, 10, 8, 8, 2, 4, "Ilona", "Ilona","CA1",false);
+let jimbo = new Queen("Jimbo", 12, 11, 14, 4, 9, 10, 4, 10, 15, 2, 4, "Jimbo", "Jimbo", "CA1", false);
 let juice = new Queen("Juice Boxx", 7, 6, 7, 6, 5, 9, 6, 7, 10, 4, 1, "Juice", "Juice", "CA1", false);
-let kiara = new Queen("Kiara",8, 9, 6, 7, 10, 8, 7, 5, 6, 3, 0, "Kiara", "Kiara", "CA1", false);
-let kyne = new Queen("Kyne", 7, 8, 6, 8, 7, 6, 6, 10, 12, 2, 5, "Kyne", "Kyne", "CA1", false);
-let lemon = new Queen("Lemon", 11, 9, 8, 10, 6, 13, 12, 8, 10, 3, 3, "Lemon","Lemon","CA1",false);
-let priyanka = new Queen("Priyanka", 8, 12, 13, 10, 6, 8, 15, 13, 12, 4, 2, "Priyanka", "Priyanka", "CA1", false);
+let kiara = new Queen("Kiara", 8, 9, 6, 8, 10, 8, 8, 5, 6, 3, 0, "Kiara", "Kiara", "CA1", false);
+let kyne = new Queen("Kyne", 7, 7, 6, 8, 7, 6, 5, 10, 9, 2, 5, "Kyne", "Kyne", "CA1", false);
+let lemon = new Queen("Lemon", 12, 10, 10, 11, 6, 13, 13, 11, 13, 3, 3, "Lemon","Lemon","CA1",false);
+let priyanka = new Queen("Priyanka", 10, 12, 13, 10, 6, 9, 15, 15, 15, 4, 2, "Priyanka", "Priyanka", "CA1", false);
 let rita = new Queen("Rita Baga", 8, 10, 12, 6, 10, 8, 12, 8, 10, 4, 1, "Rita", "Rita", "CA1", false);
-let scarlettbobo = new Queen("Scarlett BoBo", 12, 10, 8, 8, 10, 11, 13, 12, 10, 4, 1, "ScarlettBoBo", "ScarlettBoBo", "CA1", false);
-let tynomi = new Queen("Tynomi Banks", 6, 7, 9, 12, 8, 8, 13, 12, 10, 4, 2, "Tynomi", "Tynomi", "CA1", false);
+let scarlettbobo = new Queen("Scarlett BoBo", 11, 10, 8, 8, 10, 11, 13, 12, 10, 4, 1, "ScarlettBoBo", "ScarlettBoBo", "CA1", false);
+let tynomi = new Queen("Tynomi Banks", 7, 8, 9, 12, 8, 9, 13, 12, 10, 4, 2, "Tynomi", "Tynomi", "CA1", false);
 
 let CA1 = shuffle([anastarzia,boa,ilona,jimbo,juice,kiara,kyne,lemon,priyanka,rita,scarlettbobo,tynomi]);
 
