@@ -230,8 +230,8 @@ class Season {
     this.lastchallenge = LC;
     this.eliminatedCast = [];
     this.episodes = [];
-    this.doubleShantay = false;
-    this.doubleSashay = false;
+    this.doubleShantay = true;
+    this.doubleSashay = true;
     this.enableSaves = true;
     this.host = Host;
     this.finaleformat = Finale;
