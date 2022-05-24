@@ -587,11 +587,11 @@ class Screen {
             break;
 
           case "WINNER":
-            trtr.setAttribute("style","background: #ffda54; font-weight: bold;");
+            trtr.setAttribute("style","background: #D4AF37; font-weight: bold;");
             break;
 
           case "RUNNER UP":
-            trtr.setAttribute("style","background: ##fffff; font-weight: bold;");
+            trtr.setAttribute("style","background: #C0C0C0; font-weight: bold;");
             break;
 
           case "TOP 2":
@@ -670,11 +670,11 @@ class Screen {
             break;
 
           case "WINNER":
-            trtr.setAttribute("style","background: #ffda54; font-weight: bold;");
+            trtr.setAttribute("style","background: #D4AF37; font-weight: bold;");
             break;
 
           case "RUNNER UP":
-            trtr.setAttribute("style","background: ##fffff; font-weight: bold;");
+            trtr.setAttribute("style","background: #C0C0C0; font-weight: bold;");
             break;
 
           case "TOP 2":
