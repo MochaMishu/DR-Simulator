@@ -5298,7 +5298,7 @@ function Placements() {
                 else
                 {
                   Main.createImage(Tops[randomtop].image,"#17d4ff");
-                  Main.createText(", you are safe.","");
+                  Main.createText("You are safe.","");
                   Tops[randomtop].trackrecord.push("HIGH");
                   Tops[randomtop].favoritism += 1;
                 }
@@ -5308,7 +5308,7 @@ function Placements() {
           else
           {
             Main.createImage(Tops[randomtop].image,"#17d4ff");
-            Main.createText(Tops[randomtop].GetName()+", you are safe.","");
+            Main.createText(Tops[randomtop].GetName()+"You are safe.","");
             Tops[randomtop].trackrecord.push("HIGH");
             Tops[randomtop].favoritism += 1;
             Tops.splice(randomtop,1);
