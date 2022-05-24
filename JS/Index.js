@@ -5284,7 +5284,7 @@ function Placements() {
                 if(CurrentChallenge.winner == true && doublewin == false)
                 {
                   Main.createImage(Tops[randomtop].image,"#17d4ff");
-                  Main.createText( "You're' safe.","");
+                  Main.createText( "You're safe.","");
                   Tops[randomtop].trackrecord.push("HIGH");
                   Tops[randomtop].favoritism += 1;
                 }
