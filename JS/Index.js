@@ -603,27 +603,27 @@ class Screen {
             break;
 
           case "WIN":
-            trtr.setAttribute("style","background: #royalblue; font-weight: bold;");
+            trtr.setAttribute("style","background: #4169E1; font-weight: bold;");
             break;
 
           case "HIGH":
-            trtr.setAttribute("style","background: #E183C8");
+            trtr.setAttribute("style","background: #ADD8E6");
             break;
 
           case "SAFE":
-            trtr.setAttribute("style","background: #F6C2EB");
+            trtr.setAttribute("style","background: #FFFFFF");
             break;
 
           case "LOW":
-            trtr.setAttribute("style","background: #F5A9B4");
+            trtr.setAttribute("style","background: #ffb6c1");
             break;
 
           case "BOTTOM":
-            trtr.setAttribute("style","background: #EF7183");
+            trtr.setAttribute("style","background: #FF6347");
             break;
 
           case "ELIMINATED":
-            trtr.setAttribute("style","background: #E41A37; font-weight: bold;");
+            trtr.setAttribute("style","background: #ff0000; font-weight: bold;");
             break;
 
           default:
@@ -686,27 +686,27 @@ class Screen {
             break;
 
           case "WIN":
-            trtr.setAttribute("style","background: #9F60CE; font-weight: bold;");
+            trtr.setAttribute("style","background: #4169E1; font-weight: bold;");
             break;
 
           case "HIGH":
-            trtr.setAttribute("style","background: #E183C8");
+            trtr.setAttribute("style","background: #ADD8E6");
             break;
 
           case "SAFE":
-            trtr.setAttribute("style","background: #F6C2EB");
+            trtr.setAttribute("style","background: #FFFFFF");
             break;
 
           case "LOW":
-            trtr.setAttribute("style","background: #F5A9B4");
+            trtr.setAttribute("style","background: #ffb6c1");
             break;
 
           case "BOTTOM":
-            trtr.setAttribute("style","background: #EF7183");
+            trtr.setAttribute("style","background: #FF6347");
             break;
 
           case "ELIMINATED":
-            trtr.setAttribute("style","background: #E41A37; font-weight: bold;");
+            trtr.setAttribute("style","background: #ff0000; font-weight: bold;");
             break;
 
           default:
