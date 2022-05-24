@@ -5284,7 +5284,7 @@ function Placements() {
                 if(CurrentChallenge.winner == true && doublewin == false)
                 {
                   Main.createImage(Tops[randomtop].image,"#17d4ff");
-                  Main.createText(Tops[randomtop].GetName()+", great job this week. You are safe.","");
+                  Main.createText(Tops[randomtop].GetName()+", you are safe.","");
                   Tops[randomtop].trackrecord.push("HIGH");
                   Tops[randomtop].favoritism += 1;
                 }
@@ -5298,7 +5298,7 @@ function Placements() {
                 else
                 {
                   Main.createImage(Tops[randomtop].image,"#17d4ff");
-                  Main.createText(Tops[randomtop].GetName()+", great job this week. You are safe.","");
+                  Main.createText(Tops[randomtop].GetName()+", you are safe.","");
                   Tops[randomtop].trackrecord.push("HIGH");
                   Tops[randomtop].favoritism += 1;
                 }
@@ -5308,7 +5308,7 @@ function Placements() {
           else
           {
             Main.createImage(Tops[randomtop].image,"#17d4ff");
-            Main.createText(Tops[randomtop].GetName()+", great job this week. You are safe.","");
+            Main.createText(Tops[randomtop].GetName()+", you are safe.","");
             Tops[randomtop].trackrecord.push("HIGH");
             Tops[randomtop].favoritism += 1;
             Tops.splice(randomtop,1);
