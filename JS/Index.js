@@ -5379,12 +5379,12 @@ function Lipsync() {
       if(BottomQueens.length==2)
       {
         Main.createText("Two queens stand before me.", 'Bold');
-        Main.createText(BottomQueens[0].GetName()+" and "+BottomQueens[1].GetName()+", this is your last to impress me, and save yourself from elimination." , 'Bold');
+        Main.createText(BottomQueens[0].GetName()+" and "+BottomQueens[1].GetName()+", this is your last chance to impress me, and save yourself from elimination." , 'Bold');
       }
       else
       {
         Main.createText("Three queens stand before me." , 'Bold');
-        Main.createText(BottomQueens[0].GetName()+", "+BottomQueens[1].GetName()+" and "+BottomQueens[2].GetName()+", this is your last to impress me, and save yourself from elimination." , 'Bold');
+        Main.createText(BottomQueens[0].GetName()+", "+BottomQueens[1].GetName()+" and "+BottomQueens[2].GetName()+", this is your last chance to impress me, and save yourself from elimination." , 'Bold');
       }
       break;
     case 1:
