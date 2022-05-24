@@ -4738,19 +4738,19 @@ let dahlia = new Queen("Dahlia Sin", 7, 6, 4, 4, 10, 15, 5, 10, 9, 1, 4, "Dahlia
 
 let US12 = shuffle([jaida, crystalm, gigi, jackie, heidi, widow, jan, brita, aiden, nicky, rock, dahlia]);
 
-let denali = new Queen("Denali Foxx", 5, 10, 9, 14, 8, 10, 15, 11, 6, 4, 1, "Denali", "Denali", "US13", false);
-let eliott = new Queen("Eliott with 2 Ts", 8, 9, 5, 14, 10, 8, 12, 8, 7, 0, 2, "Eliott", "Eliott", "US13", false);
-let gottmik = new Queen("Gottmik", 9, 11, 12, 6, 12, 15, 6, 9, 12, 4, 0, "Gottmik", "Gottmik", "US13", false);
-let joey = new Queen("Joey Jay", 9, 8, 10, 7, 5, 5, 8, 12, 10, 4, 1, "Joey", "Joey", "US13", false);
-let kahmora = new Queen("Kahmora Hall", 5, 6, 5, 6, 8, 15, 5, 8, 12, 3, 1, "Kahmora", "Kahmora", "US13", false);
-let kandy = new Queen("Kandy Muse", 8, 11, 10, 6, 8, 10, 15, 13, 14, 2, 5, "Kandy", "Kandy", "US13", false);
-let lalari = new Queen("LaLa Ri", 8, 6, 10, 9, 2, 5, 15, 10, 13, 4, 1, "Lala", "Lalari", "US13", false);
-let liv = new Queen("Liv Lux Miyake-Mugler", 10, 11, 9, 12, 10, 14, 10, 7, 11, 5, 0, "Liv", "Liv", "US13", false);
-let rose = new Queen("Rosé", 9, 10, 11, 11, 12, 13, 1, 10, 6, 3, 0, "Rose", "Rose", "US13", false);
-let symone = new Queen("Symone", 13, 11, 8, 6, 6, 15, 13, 15, 15, 4, 0, "Symone", "Symone", "US13", false);
-let tamisha = new Queen("Tamisha Iman", 9, 8, 7, 6, 6, 8, 10, 8, 15, 2, 1, "Tamisha", "Tamisha", 'US13', false);
-let tina = new Queen("Tina Burner", 10, 10, 9, 7, 5, 5, 7, 12, 9, 3, 2, "Tina", "Tina", "US13", false);
-let utica = new Queen("Utica Queen", 8, 7, 6, 11, 14, 15, 14, 10, 10, 4, 1, "Utica", "Utica", "US13", false);
+let denali = new Queen("Denali Foxx", 6, 10, 9, 14, 9, 11, 15, 11, 9, 4, 1, "Denali", "Denali", "US13", false);
+let eliott = new Queen("Eliott with 2 Ts", 8, 7, 5, 14, 10, 8, 12, 8, 7, 0, 2, "Eliott", "Eliott", "US13", false);
+let gottmik = new Queen("Gottmik", 9, 12, 12, 6, 12, 15, 7, 10, 13, 4, 0, "Gottmik", "Gottmik", "US13", false);
+let joey = new Queen("Joey Jay", 8, 7, 9, 9, 5, 6, 8, 10, 10, 4, 1, "Joey", "Joey", "US13", false);
+let kahmora = new Queen("Kahmora Hall", 5, 5, 6, 5, 11, 15, 5, 9, 12, 3, 1, "Kahmora", "Kahmora", "US13", false);
+let kandy = new Queen("Kandy Muse", 8, 11, 10, 7, 8, 10, 13, 13, 14, 2, 5, "Kandy", "Kandy", "US13", false);
+let lalari = new Queen("LaLa Ri", 8, 7, 10, 10, 2, 5, 14, 10, 13, 4, 1, "Lala", "Lalari", "US13", false);
+let liv = new Queen("Liv Lux Miyake-Mugler", 9, 12, 8, 12, 10, 12, 10, 8, 11, 5, 0, "Liv", "Liv", "US13", false);
+let rose = new Queen("Rosé", 9, 10, 11, 11, 12, 13, 7, 10, 6, 3, 0, "Rose", "Rose", "US13", false);
+let symone = new Queen("Symone", 13, 11, 9, 6, 6, 15, 13, 15, 15, 4, 0, "Symone", "Symone", "US13", false);
+let tamisha = new Queen("Tamisha Iman", 9, 8, 7, 8, 8, 8, 8, 10, 12, 2, 1, "Tamisha", "Tamisha", 'US13', false);
+let tina = new Queen("Tina Burner", 10, 10, 11, 6, 5, 5, 7, 13, 8, 3, 2, "Tina", "Tina", "US13", false);
+let utica = new Queen("Utica Queen", 8, 7, 6, 11, 14, 15, 11, 10, 10, 4, 1, "Utica", "Utica", "US13", false);
 
 let US13 = shuffle([denali, eliott, gottmik, joey, kahmora, kandy, lalari, liv, rose, symone, tamisha, tina, utica]);
 //acting,improv,comedy,dance,design,runway,lipsync,branding,charisma
