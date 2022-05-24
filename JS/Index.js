@@ -4723,18 +4723,18 @@ let james = new Queen("James Ross", 14, 10, 12, 6, 12, 10, 14, 12, 8, 1, 4, "Jam
 
 let US2 = shuffle([jessicaw, jujus2, morganmcs2, mystique, npb, pandoras2, sahara, shangela, kylies2, tatis2, james]);
 
-let jaida = new Queen("Jaida Essence Hall", 10, 11, 8, 9, 14, 15, 13, 14, 13, 4, 1, "Jaida", "Jaida", "US12",false);
+let jaida = new Queen("Jaida Essence Hall", 8, 11, 8, 10, 14, 15, 13, 14, 13, 4, 1, "Jaida", "Jaida", "US12",false);
 let crystalm = new Queen("Crystal Methyd", 8, 10, 12, 8, 10, 12, 8, 15, 10, 4, 1, "Crystal", "Crystal", "US12", false);
-let gigi = new Queen("Gigi Goode", 11, 12, 13, 6, 12, 10, 5, 10, 11, 3, 1, "Gigi", "Gigi", "US12", false);
+let gigi = new Queen("Gigi Goode", 11, 11, 13, 7, 12, 10, 8, 10, 9, 4, 1, "Gigi", "Gigi", "US12", false);
 let jackie = new Queen("Jackie Cox", 12, 10, 11, 8, 7, 10, 11, 10, 7, 4, 1, "Jackie", "Jackie", "US12", false);
-let heidi = new Queen("Heidi N Closet", 9, 10, 10, 9, 8, 8, 14, 12, 15, 5, 0, "Heidi", "Heidi", "US12", false);
-let widow = new Queen("Widow Von'Du", 10, 12, 12, 14, 10, 12, 15, 5, 12, 4, 1, "Widow", "Widow", "US12", false);
-let jan = new Queen("Jan", 9, 10, 10, 7, 11, 10, 1, 8, 7, 4, 2, "Jan", "Jan", "US12", false);
-let brita = new Queen("Brita", 7, 6, 9, 10, 6, 15, 15, 14, 13, 2, 3, "Brita", "Brita", "US12", false);
-let aiden = new Queen("Aiden Zhane", 8, 7, 9, 7, 6, 7, 6, 10, 9, 2, 2, "Aiden", "Aiden", "US12", false);
-let nicky = new Queen("Nicky Doll", 7, 6, 6, 6, 15, 15, 6, 7, 10, 4, 1, "Nicky", "Nicky", "US12", false);
-let rock = new Queen("Rock M. Sakura", 10, 8, 9, 10, 5, 8, 10, 12, 8, 3, 1, "Rock", "Rock", "US12", false);
-let dahlia = new Queen("Dahlia Sin", 7, 8, 4, 4, 10, 15, 4, 12, 15, 1, 4, "Dahlia", "Dahlia", "US12", false);
+let heidi = new Queen("Heidi N Closet", 9, 10, 10, 11, 8, 8, 14, 12, 15, 5, 0, "Heidi", "Heidi", "US12", false);
+let widow = new Queen("Widow Von'Du", 10, 10, 10, 14, 10, 11, 13, 5, 10, 4, 1, "Widow", "Widow", "US12", false);
+let jan = new Queen("Jan", 9, 10, 10, 7, 11, 10, 5, 8, 7, 6, 2, "Jan", "Jan", "US12", false);
+let brita = new Queen("Brita", 7, 6, 9, 10, 6, 9, 12, 14, 10, 2, 3, "Brita", "Brita", "US12", false);
+let aiden = new Queen("Aiden Zhane", 8, 7, 7, 6, 6, 7, 6, 10, 7, 2, 2, "Aiden", "Aiden", "US12", false);
+let nicky = new Queen("Nicky Doll", 7, 6, 6, 6, 15, 15, 7, 7, 9, 4, 1, "Nicky", "Nicky", "US12", false);
+let rock = new Queen("Rock M. Sakura", 10, 8, 9, 10, 6, 9, 8, 12, 12, 3, 1, "Rock", "Rock", "US12", false);
+let dahlia = new Queen("Dahlia Sin", 7, 6, 4, 4, 10, 15, 5, 10, 9, 1, 4, "Dahlia", "Dahlia", "US12", false);
 
 let US12 = shuffle([jaida, crystalm, gigi, jackie, heidi, widow, jan, brita, aiden, nicky, rock, dahlia]);
 
