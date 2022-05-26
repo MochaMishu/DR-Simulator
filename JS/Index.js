@@ -4797,7 +4797,7 @@ let lemon = new Queen("Lemon", 12, 10, 10, 11, 6, 13, 13, 11, 13, 3, 3, "Lemon",
 let priyanka = new Queen("Priyanka", 10, 12, 13, 10, 6, 9, 15, 15, 15, 4, 2, "Priyanka", "Priyanka", "CA1", false);
 let rita = new Queen("Rita Baga", 8, 10, 12, 6, 10, 8, 12, 8, 10, 4, 1, "Rita", "Rita", "CA1", false);
 let scarlettbobo = new Queen("Scarlett BoBo", 11, 10, 8, 8, 10, 11, 13, 12, 10, 4, 1, "ScarlettBoBo", "ScarlettBoBo", "CA1", false);
-let tynomi = new Queen("Tynomi Banks", 7, 8, 9, 12, 8, 9, 13, 12, 10, 4, 2, "Tynomi", "Tynomi", "CA1", false);
+let tynomi = new Queen("Tynomi Banks", 7, 8, 9, 12, 8, 8, 13, 12, 10, 4, 2, "Tynomi", "Tynomi", "CA1", false);
 
 let CA1 = shuffle([anastarzia,boa,ilona,jimbo,juice,kiara,kyne,lemon,priyanka,rita,scarlettbobo,tynomi]);
 
@@ -5817,7 +5817,7 @@ function RankQueens(){
 
     if(CurrentSeason.currentCast.length>=12)
     {
-      for(let i = 0; i<4; i++)
+      for(let i = 0; i<3; i++)
       {
         Tops.push(CurrentSeason.currentCast[i]);
         Bottoms.push(CurrentSeason.currentCast[CurrentSeason.currentCast.length-1-i]);
