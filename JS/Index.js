@@ -4748,11 +4748,28 @@ let lashauwn = new Queen("Lashauwn Beyond", 4, 4, 6, 11, 8, 7, 7, 6, 7, 3, 2, "L
 let latrice = new Queen("Latrice Royale", 11, 8, 9, 8, 7, 9, 13, 12, 15, 5, 0, "Latrice", "Latrice", "US4", false);
 let madame = new Queen("Madame LaQueer", 4, 7, 6, 5, 9, 7, 6, 7, 7, 3, 1, "Madame", "Madame", "US4", false);
 let milan = new Queen("Milan", 4, 5, 9, 7, 5, 8, 10, 5, 8, 4, 1, "Milan", "Milan", "US4", false);
-let phiphi = new Queen("Phi Phi O'Hara", 13, 9, 8, 10, 10, 10, 8, 10, 2, 0, 5, "Phi Phi", "Phi Phi", "US4", false);
+let phiphi = new Queen("Phi Phi O'Hara", 13, 9, 8, 10, 10, 10, 8, 10, 2, 0, 5, "PhiPhi", "PhiPhi", "US4", false);
 let princess = new Queen("The Princess", 4, 4, 5, 7, 4, 7, 5, 6, 5, 3, 2, "Princess", "Princess", "US4", false);
 let willam = new Queen("Willam", 10, 8, 7, 10, 10, 9, 8, 15, 11, 2, 4, "Willam", "Willam", "US4", false);
 
 let US4 = shuffle([alisa, chad, dida, jiggly, kenya, lashauwn, latrice, madame, milan, phiphi, princess, willam])
+
+let adore = new Queen("Adore Delano", 9, 11, 9, 6, 9, 8, 11, 12, 12, 4, 1, "Adore", "Adore", "US6", false);
+let april = new Queen("April Carrión", 5, 5, 6, 9, 5, 9, 8, 6, 10, 5, 0, "April", "April", "US6", false);
+let bendela = new Queen("BenDeLaCreme", 12, 12, 11, 10, 15, 10, 9, 13, 13, 5, 0, "Ben", "Ben", "US6", false);
+let bianca = new Queen("Bianca Del Rio", 11, 15, 7, 13, 15, 10, 5, 15, 10, 2, 4, "Bianca", "Bianca", "US6", false);
+let courtney = new Queen("Courtney Act", 11, 8, 10, 10, 10, 12, 9, 11, 10, 3,3, "Courtney", "Courtney", "US6", false);
+let darienne = new Queen("Darienne Lake", 11, 8, 7, 4, 9, 8, 13, 10, 11, 3,3, "Darienne", "Darienne", "US6", false);
+let gia = new Queen("Gia Gunn", 10, 4, 8, 8, 4, 8, 9, 10, 4, 0, 5, "Gia", "Gia", "US6", false);
+let joslyn = new Queen("Joslyn Fox", 6, 7, 8, 6, 8, 8, 11, 8, 10, 4, 1, "Joslyn", "Joslyn", "US6", false);
+let kelly = new Queen("Kelly Mantle", 6, 6, 5, 5, 4, 7, 4, 8, 6, 4, 1, "Kelly", "Kelly", "US6", false);
+let laganja = new Queen("Laganja Estranja", 9, 5, 14, 8, 6, 10, 15, 10, 13, 4, 3, "Laganja", "Laganja", "US6", false);
+let magnolia = new Queen("Magnolia Crawford", 4, 5, 6, 4, 5, 7, 4, 3, 3, 2, 3, "Magnolia", "Magnolia", "US6", false);
+let milk = new Queen("Milk", 6, 6, 7, 8, 8, 7, 7, 10, 7, 3, 4, "Milk", "Milk", "US6", false);
+let trinityk = new Queen("Trinity K. Bonet", 9, 9, 13, 12, 4, 10, 15, 10, 8, 4, 2, "Trinity", "Trinity", "US6", false);
+let vivacious = new Queen("Vivacious", 4, 5, 5, 4, 4, 7, 7, 9, 7, 4, 2, "Vivacious", "Vivacious", "US6", false);
+
+let US6 = shuffle([bianca, adore, courtney, darienne, bendela, joslyn, trinityk, laganja, milk, gia, april, vivacious, magnolia, kelly,])
 
 let bob = new Queen("Bob The Drag Queen", 12, 13, 15, 11, 6, 9, 12, 15, 15, 3, 2, "Bob", "Bob", "US8", false);
 let kimchi = new Queen("Kim Chi", 9, 10, 10, 3, 10, 10, 4, 10, 10, 3, 2, "Kim", "Kim", "US8", false);
