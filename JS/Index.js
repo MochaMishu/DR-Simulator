@@ -4723,6 +4723,10 @@ let james = new Queen("James Ross", 14, 10, 12, 6, 12, 10, 14, 12, 8, 1, 4, "Jam
 
 let US2 = shuffle([jessicaw, jujus2, morganmcs2, mystique, npb, pandoras2, sahara, shangela, kylies2, tatis2, james]);
 
+let raja = new Queen("Raja", 11, 10, 6, 6, 15, 15, 9, 13, 10, 4, 0, "Raja", "Raja", "US3", false);
+
+let US3 = shuffle([raja, manila, alexis, yara, carmen, shangelas3, delta, stacy, mariah, india, mimi, phoenix, venus]);
+
 let jaida = new Queen("Jaida Essence Hall", 8, 11, 8, 10, 14, 15, 13, 14, 13, 4, 1, "Jaida", "Jaida", "US12",false);
 let crystalm = new Queen("Crystal Methyd", 8, 10, 12, 8, 10, 12, 8, 15, 10, 4, 1, "Crystal", "Crystal", "US12", false);
 let gigi = new Queen("Gigi Goode", 11, 11, 13, 7, 12, 10, 8, 10, 9, 4, 1, "Gigi", "Gigi", "US12", false);
