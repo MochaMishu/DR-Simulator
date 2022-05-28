@@ -30,7 +30,6 @@ let TopsQueens = [];
 let randomtop;
 let randombtm;
 
-<<<<<<< HEAD
 let lsc1 = [];
 let lsc2 = [];
 
@@ -51,173 +50,6 @@ let reads = [
 ];
 
 let rusicalcastsizes = 
-=======
-let RunwaysTheme = [
-"Color Blocking",
-"Recreation Runway",
-"What’s Your Zodiac Sign?",
-"Fringe",
-"Orange Alert",
-"All That Glitters",
-"Sequins On The Runway",
-"Facekini Realness",
-"Caftan Realness",
-"Rebellion",
-"Sparkle",
-"Tulle",
-"Spring",
-"Fall",
-"Planet Of The Capes",
-"Frozen Eleganza",
-"Black Wedding",
-"Stars & Stripes Forever",
-"Drag Family Resemblance",
-"The Color Purple",
-"Icy Iridescence",
-"Eleguence After Dark",
-"Boots The Haus Down",
-"Curves & Swerves: Padded For The Gods",
-"Angellic White",
-"Plastique Fantastique",
-"Kitty Kat Kouture",
-"Neon",
-"Drag On A Dime",
-"Feathers",
-"Denim & Diamonds",
-"Hats Incredible",
-"Mermaid Fantasy",
-"Glitterific",
-"Silver Foxy",
-"Queen Of All Queens",
-"Latex Extravaganza",
-"The Future Of Drag",
-"Two Looks In One",
-"Pants On The Runway",
-"All Star Glam-O-Rama",
-"Goddess",
-"Trash Couture",
-"Think Pink",
-"Divalicious",
-"Favourite Body Part",
-"Company Spokeswoman",
-"Latina Eleganza",
-"Pasteloquence",
-"Lame You Stay",
-"We’re Sheer",
-"Daytime Drama Rama",
-"Night Time",
-"Lady!",
-"Vampy Realness",
-"Trains For Days",
-"Little Black Dress",
-"Bead It!",
-"Yellow Gorgeous",
-"Fascinating Fascinators",
-"Drag Dopplegangers",
-"BEAST Couture",
-"Haute Pockets",
-"Love The Skin You’re In",
-"Three Looks in One",
-"Camo Couture",
-"Prom Queen Fantasy",
-"Freak Out",
-"Monochrome",
-"White Party Realness",
-"Princess Fantasy",
-"Naughty Nighty",
-"Faux Fur Realness",
-"Big Hair Everywhere",
-"Club Kid Couture",
-"Flower Power",
-"Red For Filth",
-"Not My First Time",
-"Que-Becky With the Good Hair",
-"Denim on Denim on Denim",
-"Pageant Perfection",
-"Give Face, Face, Face",
-"Miss USA",
-"Shine Bright Like A Diamond",
-"Half Man Half Queen",
-"Beachwear",
-"Cocktail Dress",
-"Evening Gown",
-"Retro",
-"Movie Premiere Eleganza",
-"Rollergirls",
-"Neon Realness",
-"Nude Illusion",
-"Jetset Eleganza",
-"Bearded & Beautiful",
-"Green",
-"Award Show",
-"Death Becomes Her",
-"Leather & Lace",
-"Ugliest Dress Ever",
-"TV Shows",
-"Party Box",
-"Tony Awards",
-"Crazy Sexy Cool",
-"Black & White",
-"Animal Kingdom Couture",
-"Bad Girl Chic",
-"Futurism",
-"Apocalyptic Couture",
-"Girly Girl Couture",
-"Red Carpet",
-"Dress to Impress",
-"Pride Parade Eleganza",
-"Frenemies",
-"Futurama Glamourama",
-"Favorite Body Part",
-"Extravagant Drag",
-"Cake Couture",
-"Patriotic Drag",
-"High Class Drag",
-"Country Realness",
-"Personal Style",
-"Wedding Eleganza",
-"Rocker Chick",
-"Diva Hollywood Extravaganza",
-"Mac Viva Glam",
-"Supermodel Of The World",
-"Candy Land",
-"Gamer Couture",
-"Signature Showstopping Drag",
-"Night of 1000 J.Lo's",
-"Spring has Sprung",
-"Chaps On The Runway!",
-"Heart On",
-"Shoulder Pads",
-"Holy Couture",
-"Mirror, Mirror!",
-"Tutu Much",
-"You're A Winner, Baby!",
-"Viva Drag VEGAS!",
-"Teritary Colors",
-"Queen of your Hometown",
-"My Favorite Thing",
-"Red Carpet Showstoppers",
-"Night of 1000 Spice Girls",
-"Expenny, Henny!",
-"Feeling Fruity",
-"Scene Stealers",
-"Oh My Goddess",
-"80's",
-"90's",
-"70's",
-"60's",
-"Period Piece",
-"Add Some Sugar!",
-"Premiere Party Realness",
-"Circus Bezerkus",
-"Good Girl Gone Bad",
-"Monochromatica: Futuristic Pop Princess",
-"Dungeons and Drag Queens",
-"Cool Mom"
-];
-
-let rusicalcastsizes =
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
 [
 11,
 13,
@@ -226,11 +58,7 @@ let rusicalcastsizes =
 14,
 7,
 12,
-<<<<<<< HEAD
 9,      
-=======
-9,
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
 5,
 9,
 7,
@@ -252,7 +80,7 @@ class Season {
     if(this.currentCast.length==0)
       for(let i =0; i < this.fullCast.length; i++)
       {
-
+        
         this.currentCast.push(this.fullCast[i]);
       }
 
@@ -273,11 +101,7 @@ class Season {
     this.snatchgamecharacter;
 
     this.rusicalrole;
-<<<<<<< HEAD
     
-=======
-
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
     this.actingchallenges = 0;
     this.balls = 0;
     this.choreochallenges = 0;
@@ -517,9 +341,9 @@ class Screen {
       default:
         text.setAttribute("style","font-size: 16px;");
         break;
-
+        
     }
-
+    
     text.innerHTML = Text;
     this.MainScreen.append(text);
   }
@@ -581,7 +405,7 @@ class Screen {
     image.setAttribute("id",ID)
   }
   image.setAttribute("style", 'margin: 7px; width: 105px; height: 105px; border-radius: 20px; border: 3px solid; border-color: '+Color+';');
-  this.MainScreen.appendChild(image);
+  this.MainScreen.appendChild(image); 
   }
 
   createCImage(Source, Color, ID="NONE")
@@ -615,7 +439,7 @@ class Screen {
   let image = document.createElement("img");
   image.src = Source;
   image.setAttribute("style", 'margin: 7px; width: 105px; height: 105px; border-radius: 20px;  border: 3px solid; -webkit-filter: grayscale(100%);filter: grayscale(100%); border-color: '+Color+';');
-  this.MainScreen.appendChild(image);
+  this.MainScreen.appendChild(image); 
   }
 
   createVideo(Country)
@@ -774,18 +598,18 @@ class Screen {
     let thead = document.createElement("thead");
 
     table.setAttribute("class","tr");
-
+  
     let tbody = document.createElement("tbody");
-
+  
     let treps = document.createElement("tr");
-
+  
     let thq = document.createElement("th");
     thq.innerHTML = "Queens";
-
+    
     thq.setAttribute("class","tr");
     thq.setAttribute("style","width: 100px;")
     treps.append(thq);
-
+  
     for(let i = 0; i < CurrentSeason.episodes.length; i++)
     {
       let thep = document.createElement("th");
@@ -839,19 +663,11 @@ class Screen {
             break;
 
           case "WINNER":
-<<<<<<< HEAD
             trtr.setAttribute("style","background: yellow; font-weight: bold;");
-=======
-            trtr.setAttribute("style","background: #D4AF37; font-weight: bold;");
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
             break;
-
+            
           case "RUNNER UP":
-<<<<<<< HEAD
             trtr.setAttribute("style","background: silver; font-weight: bold;");
-=======
-            trtr.setAttribute("style","background: #C0C0C0; font-weight: bold;");
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
             break;
 
           case "TOP 2":
@@ -869,15 +685,10 @@ class Screen {
             break;
 
           case "WIN":
-<<<<<<< HEAD
             trtr.setAttribute("style","background: royalblue; font-weight: bold; color: white;");
-=======
-            trtr.setAttribute("style","background: #4169E1; font-weight: bold;");
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
             break;
-
+          
           case "HIGH":
-<<<<<<< HEAD
             trtr.setAttribute("style","background: lightblue");
             break;
           
@@ -889,13 +700,9 @@ class Screen {
           case "BLOCK":
             trtr.innerHTML = "<b>BLOCK</b>";
             trtr.setAttribute("style","background: red");
-=======
-            trtr.setAttribute("style","background: #ADD8E6");
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
             break;
-
+          
           case "SAFE":
-<<<<<<< HEAD
             trtr.setAttribute("style","background: #F5EBF5;");
             break;
 
@@ -914,21 +721,6 @@ class Screen {
           case "DOUBLEWIN":
             trtr.innerHTML = "WIN";
             trtr.setAttribute("style","background: darkblue; font-weight: bold; color: white;");
-=======
-            trtr.setAttribute("style","background: #FFFFFF");
-            break;
-
-          case "LOW":
-            trtr.setAttribute("style","background: #ffb6c1");
-            break;
-
-          case "BOTTOM":
-            trtr.setAttribute("style","background: #FF6347");
-            break;
-
-          case "ELIMINATED":
-            trtr.setAttribute("style","background: #ff0000; font-weight: bold;");
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
             break;
 
           default:
@@ -1005,19 +797,11 @@ class Screen {
             break;
 
           case "WINNER":
-<<<<<<< HEAD
             trtr.setAttribute("style","background: yellow; font-weight: bold;");
-=======
-            trtr.setAttribute("style","background: #D4AF37; font-weight: bold;");
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
             break;
-
+            
           case "RUNNER UP":
-<<<<<<< HEAD
             trtr.setAttribute("style","background: silver; font-weight: bold;");
-=======
-            trtr.setAttribute("style","background: #C0C0C0; font-weight: bold;");
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
             break;
 
           case "TOP 2":
@@ -1035,15 +819,10 @@ class Screen {
             break;
 
           case "WIN":
-<<<<<<< HEAD
             trtr.setAttribute("style","background: royalblue; font-weight: bold; color: white;");
-=======
-            trtr.setAttribute("style","background: #4169E1; font-weight: bold;");
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
             break;
-
+          
           case "HIGH":
-<<<<<<< HEAD
             trtr.setAttribute("style","background: lightblue");
             break;
           
@@ -1055,13 +834,9 @@ class Screen {
           case "BLOCK":
             trtr.innerHTML = "<b>BLOCK</b>";
             trtr.setAttribute("style","background: red");
-=======
-            trtr.setAttribute("style","background: #ADD8E6");
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
             break;
-
+          
           case "SAFE":
-<<<<<<< HEAD
             trtr.setAttribute("style","background: #F5EBF5;");
             break;
 
@@ -1080,21 +855,6 @@ class Screen {
           case "DOUBLEWIN":
             trtr.innerHTML = "WIN";
             trtr.setAttribute("style","background: darkblue; font-weight: bold; color: white;");
-=======
-            trtr.setAttribute("style","background: #FFFFFF");
-            break;
-
-          case "LOW":
-            trtr.setAttribute("style","background: #ffb6c1");
-            break;
-
-          case "BOTTOM":
-            trtr.setAttribute("style","background: #FF6347");
-            break;
-
-          case "ELIMINATED":
-            trtr.setAttribute("style","background: #ff0000; font-weight: bold;");
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
             break;
 
           default:
@@ -1249,9 +1009,9 @@ class Screen {
             tr2.append(td);
           }
           tbody.append(tr2);
-
+          
         }
-
+        
       }
       table.append(thead);
       table.append(tbody);
@@ -1680,7 +1440,6 @@ class SnatchGame{
     }
 }
 
-<<<<<<< HEAD
 class Ball{
   constructor(){
     this.type = "BALL";
@@ -2585,68 +2344,38 @@ class ActingChallenge{
 
   constructor(){
     this.type = "ACTING";
-=======
-class Rusical{
-  constructor(){
-    this.type = "RUSICAL";
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
     this.hasrunway = true;
     this.winner = false;
-    this.regrusical = [
-      "Shade: The Rusical",
-      "Glamazonian Airways",
-      "Bitch Perfect",
-      "Kardashian: The Musical",
-      "PharmaRusical",
-      "Cher: The Unauthorized Rusical",
-      "Trump: The Rusical",
-      "Madonna: The Unauthorized Rusical",
-      "Viva Drag Vegas",
-      "Social Media: The Unverified Rusical",
-      "Moulin Ru: The Rusical",
-      "Rats: The Rusical",
-      "Under the Big Top"
+    this.plays = [
+      "Country Queens",
+      "Queens In Spaces",
+      "Queens Behind Bars",
+      "Lip Sync Eleganza Extravaganza",
+      "Drama Queens",
+      "Scream Queens",
+      "ShakesQueer",
+      "Ru Hollywood Stories",
+      "RuCo's Empire",
+      "9021-HO",
+      "Breastworld",
+      "Good Girl, Get Out",
+      "Gay's Anatomy",
+      "RuPaulmark Channel",
+      "Henny, I Shrunk The Drag Queens!",
+      "She's A Super Tease",
+      "The Daytona Winds",
+      "Drag Movie Shequels",
+      "My Best Squirrelfriend's Dragsmaids Wedding Trip",
+      "Sex and the Kitty, Girl 3",
+      "RuMerican Horror Story: Coven Girls",
+      "Downton Draggy",
+      "BeastEnders",
+      "Bra Wars",
+      "Her-Itage Moments",
+      "Screech"
     ];
 
-    this.castsizes = [
-      11,
-      13,
-      11,
-      11,
-      14,
-      7,
-      12,
-      9,
-      5,
-      9,
-      7,
-      11,
-      11
-    ];
-
-    this.roles =
-    [
-      ["Good Penny","Bad Penny","Shady Lady","Pageant Queen 1", "Pageant Queen 2", "Comedy Queen 1", "Comedy Queen 2" , "Amanda", "Showgirl", "Les Mizabella", "Bertha"],
-      [],
-      [],
-      ["Blac Chyna", "Britney Spears", "Kris Jenner", "Lindsay Lohan", "Paris Hilton", "Kourtney Kardashian", "Kendall Jenner", "Khloe Kardashian", "Kylie Jenner", "Kim Kardashian", "North West"],
-      [],
-      ["60's Cher", "70s Variety Show Cher", "Rockstar Cher", "Comeback Cher", "Disco Cher", "Movie Star Cher", "70s Variety Show Cher"],
-      ["Oprah Winfrey", "Ivana Trump", "Kelly Anne Conway", "Stormy Daniels", "Shandy", "Sarah Huckabee Sanders", "Melania Trump", "Betsy DeVos", "Hillary Clinton", "Rosie O'Donell", "Omarosa", "Ivanka Trump"],
-      ["Unapologetic Madonna", "Enlightened Madonna", "Early Madonna", "Sexy Madonna", "Movie Star Madonna", "Femmepire Madonna", "Boy Toy Madonna", "Madonna Forever", "Cone Bra Madonna"],
-      [],
-      ["Foxy", "Nikita", "Natasha", "Miss TokTik", "Makie Tuckenberg", "Lady Tweets", "EmShee", "Reverend Dr. Lady Linked In", "Miss InstaGlam"],
-      ["Mama Z", "the Green Fairy", "Uniqueness", "Charisma", "Nerve", "Talent", "Saltine"],
-      ["Evita Von Fleas", "Scabies", "Specimen One", "Jane", "Miss Disentry", "Depravity", "Dame Doody Stench", "Rap Pack #1", "Rat Pack #2", "Rat Pack #3", "Scat Rat"],
-      ["Henny Wise", "Himbo", "Ring Mistress", "Bang", "Bianca", "Leather", "Corsette", "Reveliana", "Bing", "Lace", "Bong"]
-    ];
-
-    this.chosen = getRandomInt(0,this.regrusical.length-1);
-  }
-
-  Reset()
-  {
-    this.chosen = getRandomInt(0,this.regrusical.length-1);
+    this.chosen = getRandomInt(0,this.plays.length-1);
   }
 
   createMessage()
@@ -2655,35 +2384,29 @@ class Rusical{
     {
       case 0:
         Announcement.createRupaulAnnouncement("Hello queens!");
-        Announcement.createRupaulAnnouncement("I see Paris, I see Fans.");
-        Announcement.createRupaulAnnouncement("I see queens, who sings and dance.");
-        Announcement.createRupaulAnnouncement("Do you see it too ?");
+        Announcement.createRupaulAnnouncement("I'm sorry to say but you have all been eliminated...");
+        Announcement.createRupaulAnnouncement("HA! Got you all!");
+        Announcement.createRupaulAnnouncement("Will you be able to do it like me ? Or you will fail ?");
+        Announcement.createRupaulAnnouncement("Play the game to find out...");
         break;
       case 1:
         Announcement.createRupaulAnnouncement("Hello queens!");
-        Announcement.createRupaulAnnouncement("I see Paris, I see Fans.");
-        Announcement.createRupaulAnnouncement("I see queens, who sings and dance.");
-        Announcement.createRupaulAnnouncement("Do you see it too ?");
+        Announcement.createRupaulAnnouncement("Tonight, you will have to use your actings chops.");
+        Announcement.createRupaulAnnouncement("Do you have what it takes ?");
         break;
     }
   }
 
   createBrief()
   {
-    Main.createText("This week, the queens will have to act in : "+this.regrusical[this.chosen]+".");
+    Main.createText("This week, the queens will have to act in : "+this.plays[this.chosen]+".");
   }
 
   TopPlacement()
   {
-
+    
     let Top = [
-    "Tonight, you played to your strengths, and you came out on top.",
-    "You wished upon a star, and your dreams came true.",
-    "You had this challenge in the bag.",
-    "You navigated this challenge beautifully, and we were swept away.",
-    "Tonight, you didn’t just kill it. You were a mass murderer.",
-    "Not only did you turn it out, girl, you turned it upside down.",
-    "Tonight, you werked it OUT!",
+    "Tonight, you knew how to work it OUT!",
     "Tonight, you shined all over this runway.",
     "You ruled over this runway.",
     "You made gold out of randomness.",
@@ -2700,11 +2423,8 @@ class Rusical{
 
   BtmPlacement()
   {
-
+    
     let Btm = [
-    ", You light up our lives, but this week, you let the other queens outshine you.",
-    ", You made a meal out of this challenge, but it left a bad taste in some of the judges’ mouths.",
-    ", You are a smart cookie, but tonight, you crumbled.",
     ", you came here to slay, but tonight your outfit slayed you.",
     ", on the runway, you ran out of gas.",
     ", tonight the judges did not say yes to the dress.",
@@ -2720,7 +2440,7 @@ class Rusical{
   {
       for(let i = 0; i < CurrentSeason.currentCast.length;i++)
       {
-        CurrentSeason.currentCast[i].GetRusical();
+        CurrentSeason.currentCast[i].GetActing();
       }
 
       CurrentSeason.currentCast.sort((a, b) => a.perfomancescore - b.perfomancescore);
@@ -2758,8 +2478,8 @@ class Rusical{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-
-
+      
+  
       if(SlayedChallenge.length!=0)
       {
         for(let i = 0; i < SlayedChallenge.length; i++)
@@ -2783,7 +2503,7 @@ class Rusical{
         }
         Main.createText(slayedtext+" slayed the challenge.", "Bold");
       }
-
+  
       if(GreatChallenge.length!=0)
       {
         for(let i = 0; i < GreatChallenge.length; i++)
@@ -2807,7 +2527,7 @@ class Rusical{
         }
         Main.createText(greattext+" had a great performance.", "Bold");
       }
-
+  
       if(GoodChallenge.length!=0)
       {
         for(let i = 0; i < GoodChallenge.length; i++)
@@ -2831,7 +2551,7 @@ class Rusical{
         }
         Main.createText(goodtext+" had a good performance.", "Bold");
       }
-
+  
       if(BadChallenge.length!=0)
       {
         for(let i = 0; i < BadChallenge.length; i++)
@@ -2855,7 +2575,7 @@ class Rusical{
         }
         Main.createText(badtext+" had a bad performance.", "Bold");
       }
-
+  
       if(FloppedChallenge.length!=0)
       {
         for(let i = 0; i < FloppedChallenge.length; i++)
@@ -2921,8 +2641,8 @@ class Rusical{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-
-
+      
+  
       if(SlayedRunway.length!=0)
       {
         for(let i = 0; i < SlayedRunway.length; i++)
@@ -2946,7 +2666,7 @@ class Rusical{
         }
         Main.createText(slayedtext+" slayed the runway.", "Bold");
       }
-
+  
       if(GreatRunway.length!=0)
       {
         for(let i = 0; i < GreatRunway.length; i++)
@@ -2970,7 +2690,7 @@ class Rusical{
         }
         Main.createText(greattext+" had a great runway.", "Bold");
       }
-
+  
       if(GoodRunway.length!=0)
       {
         for(let i = 0; i < GoodRunway.length; i++)
@@ -2994,7 +2714,7 @@ class Rusical{
         }
         Main.createText(goodtext+" had a good runway.", "Bold");
       }
-
+  
       if(BadRunway.length!=0)
       {
         for(let i = 0; i < BadRunway.length; i++)
@@ -3018,432 +2738,7 @@ class Rusical{
         }
         Main.createText(badtext+" had a bad runway.", "Bold");
       }
-
-      if(FloppedRunway.length!=0)
-      {
-        for(let i = 0; i < FloppedRunway.length; i++)
-        {
-          Main.createImage(FloppedRunway[i].image,"#ff6e6e");
-          if(i!=FloppedRunway.length-1)
-          {
-            floptext += FloppedRunway[i].GetName()+", ";
-          }
-          else
-          {
-            if(FloppedRunway.length!=1)
-            {
-              floptext += " and "+FloppedRunway[i].GetName();
-            }
-            else
-            {
-              floptext += FloppedRunway[i].GetName();
-            }
-          }
-        }
-        Main.createText(floptext+" flopped the runway.", "Bold");
-      }
-    }
-  }
-
-class ActingChallenge{
-
-  constructor(){
-    this.type = "ACTING";
-    this.hasrunway = true;
-    this.winner = false;
-    this.plays = [
-      "Country Queens",
-      "Queens In Spaces",
-      "Queens Behind Bars",
-      "Lip Sync Eleganza Extravaganza",
-      "Drama Queens",
-      "Scream Queens",
-      "ShakesQueer",
-      "Ru Hollywood Stories",
-      "RuCo's Empire",
-      "9021-HO",
-      "Breastworld",
-      "Good Girl, Get Out",
-      "Gay's Anatomy",
-      "RuPaulmark Channel",
-      "Henny, I Shrunk The Drag Queens!",
-      "She's A Super Tease",
-      "The Daytona Winds",
-      "Drag Movie Shequels",
-      "My Best Squirrelfriend's Dragsmaids Wedding Trip",
-      "Sex and the Kitty, Girl 3",
-      "RuMerican Horror Story: Coven Girls",
-      "Downton Draggy",
-      "BeastEnders",
-      "Bra Wars",
-      "Her-Itage Moments",
-      "Screech"
-    ];
-
-    this.chosen = getRandomInt(0,this.plays.length-1);
-  }
-
-  createMessage()
-  {
-    switch(getRandomInt(0,1))
-    {
-      case 0:
-        Announcement.createRupaulAnnouncement("Hello queens!");
-        Announcement.createRupaulAnnouncement("I'm sorry to say but you have all been eliminated...");
-        Announcement.createRupaulAnnouncement("HA! Got you all!");
-        Announcement.createRupaulAnnouncement("Will you be able to do it like me ? Or you will fail ?");
-        Announcement.createRupaulAnnouncement("Play the game to find out...");
-        break;
-      case 1:
-        Announcement.createRupaulAnnouncement("Hello queens!");
-        Announcement.createRupaulAnnouncement("Tonight, you will have to use your actings chops.");
-        Announcement.createRupaulAnnouncement("Do you have what it takes ?");
-        break;
-    }
-  }
-
-  createBrief()
-  {
-    Main.createText("This week, the queens will have to act in : "+this.plays[this.chosen]+".");
-  }
-
-  TopPlacement()
-  {
-
-    let Top = [
-    "Tonight, you knew how to work it OUT!",
-    "Tonight, you shined all over this runway.",
-    "You ruled over this runway.",
-    "You made gold out of randomness.",
-    "Your haute couture, made you rise to the top.",
-    "You have creativity beyond limits.",
-    "Tonight, you have made yourself stunning.",
-    "Your couture made us gag.",
-    "The cream always rises to the top.",
-    "You have a great perception of design.",
-    "Your outfit kept us begging for more."
-    ];
-    return(Top[getRandomInt(0,Top.length-1)]);
-  }
-
-  BtmPlacement()
-  {
-
-    let Btm = [
-    ", you came here to slay, but tonight your outfit slayed you.",
-    ", on the runway, you ran out of gas.",
-    ", tonight the judges did not say yes to the dress.",
-    ", your outfit had a story. A very confusing one.",
-    ", simplicity is sometimes the way to go. Unfortunately, not tonight.",
-    ", your outfit made our heads turn, and made us dizzy.",
-    ", you need to focus. Or else it's going to cost you.",
-    ];
-    return(Btm[getRandomInt(0,Btm.length-1)]);
-  }
-
-  rankPerfomances()
-  {
-      for(let i = 0; i < CurrentSeason.currentCast.length;i++)
-      {
-        CurrentSeason.currentCast[i].GetActing();
-      }
-
-      CurrentSeason.currentCast.sort((a, b) => a.perfomancescore - b.perfomancescore);
-
-      for(let i = 0; i<CurrentSeason.currentCast.length; i++)
-      {
-        if(CurrentSeason.currentCast[i].perfomancescore<=8)
-        {
-          SlayedChallenge.push(CurrentSeason.currentCast[i]);
-        }
-        else if(CurrentSeason.currentCast[i].perfomancescore>6 && CurrentSeason.currentCast[i].perfomancescore<=16)
-        {
-          GreatChallenge.push(CurrentSeason.currentCast[i]);
-        }
-        else if(CurrentSeason.currentCast[i].perfomancescore>16 && CurrentSeason.currentCast[i].perfomancescore<=26)
-        {
-          GoodChallenge.push(CurrentSeason.currentCast[i]);
-        }
-        else if(CurrentSeason.currentCast[i].perfomancescore>26 && CurrentSeason.currentCast[i].perfomancescore<=32)
-        {
-          BadChallenge.push(CurrentSeason.currentCast[i]);
-        }
-        else if(CurrentSeason.currentCast[i].perfomancescore>32)
-        {
-          FloppedChallenge.push(CurrentSeason.currentCast[i]);
-        }
-      }
-
-  }
-
-    createPerformances()
-    {
-      let slayedtext = "";
-      let greattext = "";
-      let goodtext = "";
-      let badtext = "";
-      let floptext = "";
-
-
-      if(SlayedChallenge.length!=0)
-      {
-        for(let i = 0; i < SlayedChallenge.length; i++)
-        {
-          Main.createImage(SlayedChallenge[i].image,"#6eadff");
-          if(i!=SlayedChallenge.length-1)
-          {
-            slayedtext += SlayedChallenge[i].GetName()+", ";
-          }
-          else
-          {
-            if(SlayedChallenge.length!=1)
-            {
-              slayedtext += " and "+SlayedChallenge[i].GetName();
-            }
-            else
-            {
-              slayedtext += SlayedChallenge[i].GetName();
-            }
-          }
-        }
-        Main.createText(slayedtext+" slayed the challenge.", "Bold");
-      }
-
-      if(GreatChallenge.length!=0)
-      {
-        for(let i = 0; i < GreatChallenge.length; i++)
-        {
-          Main.createImage(GreatChallenge[i].image,"#6effe4");
-          if(i!=GreatChallenge.length-1)
-          {
-            greattext += GreatChallenge[i].GetName()+", ";
-          }
-          else
-          {
-            if(GreatChallenge.length!=1)
-            {
-              greattext += " and "+GreatChallenge[i].GetName();
-            }
-            else
-            {
-              greattext += GreatChallenge[i].GetName();
-            }
-          }
-        }
-        Main.createText(greattext+" had a great performance.", "Bold");
-      }
-
-      if(GoodChallenge.length!=0)
-      {
-        for(let i = 0; i < GoodChallenge.length; i++)
-        {
-          Main.createImage(GoodChallenge[i].image,"#6eff72");
-          if(i!=GoodChallenge.length-1)
-          {
-            goodtext += GoodChallenge[i].GetName()+", ";
-          }
-          else
-          {
-            if(GoodChallenge.length!=1)
-            {
-              goodtext += " and "+GoodChallenge[i].GetName();
-            }
-            else
-            {
-              goodtext += GoodChallenge[i].GetName();
-            }
-          }
-        }
-        Main.createText(goodtext+" had a good performance.", "Bold");
-      }
-
-      if(BadChallenge.length!=0)
-      {
-        for(let i = 0; i < BadChallenge.length; i++)
-        {
-          Main.createImage(BadChallenge[i].image,"#ffe96e");
-          if(i!=BadChallenge.length-1)
-          {
-            badtext += BadChallenge[i].GetName()+", ";
-          }
-          else
-          {
-            if(BadChallenge.length!=1)
-            {
-              badtext += " and "+BadChallenge[i].GetName();
-            }
-            else
-            {
-              badtext += BadChallenge[i].GetName();
-            }
-          }
-        }
-        Main.createText(badtext+" had a bad performance.", "Bold");
-      }
-
-      if(FloppedChallenge.length!=0)
-      {
-        for(let i = 0; i < FloppedChallenge.length; i++)
-        {
-          Main.createImage(FloppedChallenge[i].image,"#ff6e6e");
-          if(i!=FloppedChallenge.length-1)
-          {
-            floptext += FloppedChallenge[i].GetName()+", ";
-          }
-          else
-          {
-            if(FloppedChallenge.length!=1)
-            {
-              floptext += " and "+FloppedChallenge[i].GetName();
-            }
-            else
-            {
-              floptext += FloppedChallenge[i].GetName();
-            }
-          }
-        }
-        Main.createText(floptext+" flopped the challenge.", "Bold");
-      }
-    }
-
-    rankRunways()
-    {
-      for(let i = 0; i < CurrentSeason.currentCast.length;i++)
-      {
-        CurrentSeason.currentCast[i].getRunway();
-        CurrentSeason.currentCast[i].finalscore = CurrentSeason.currentCast[i].perfomancescore - CurrentSeason.currentCast[i].runway;
-      }
-
-      for(let i = 0; i<CurrentSeason.currentCast.length; i++)
-      {
-        if(CurrentSeason.currentCast[i].runwayscore<=8)
-        {
-          SlayedRunway.push(CurrentSeason.currentCast[i]);
-        }
-        else if(CurrentSeason.currentCast[i].runwayscore>6 && CurrentSeason.currentCast[i].runwayscore<=16)
-        {
-          GreatRunway.push(CurrentSeason.currentCast[i]);
-        }
-        else if(CurrentSeason.currentCast[i].runwayscore>16 && CurrentSeason.currentCast[i].runwayscore<=26)
-        {
-          GoodRunway.push(CurrentSeason.currentCast[i]);
-        }
-        else if(CurrentSeason.currentCast[i].runwayscore>26 && CurrentSeason.currentCast[i].runwayscore<=32)
-        {
-          BadRunway.push(CurrentSeason.currentCast[i]);
-        }
-        else if(CurrentSeason.currentCast[i].runwayscore>32)
-        {
-          FloppedRunway.push(CurrentSeason.currentCast[i]);
-        }
-      }
-    }
-
-    createRunways()
-    {
-      let slayedtext = "";
-      let greattext = "";
-      let goodtext = "";
-      let badtext = "";
-      let floptext = "";
-
-
-      if(SlayedRunway.length!=0)
-      {
-        for(let i = 0; i < SlayedRunway.length; i++)
-        {
-          Main.createImage(SlayedRunway[i].image,"#6eadff");
-          if(i!=SlayedRunway.length-1)
-          {
-            slayedtext += SlayedRunway[i].GetName()+", ";
-          }
-          else
-          {
-            if(SlayedRunway.length!=1)
-            {
-              slayedtext += " and "+SlayedRunway[i].GetName();
-            }
-            else
-            {
-              slayedtext += SlayedRunway[i].GetName();
-            }
-          }
-        }
-        Main.createText(slayedtext+" slayed the runway.", "Bold");
-      }
-
-      if(GreatRunway.length!=0)
-      {
-        for(let i = 0; i < GreatRunway.length; i++)
-        {
-          Main.createImage(GreatRunway[i].image,"#6effe4");
-          if(i!=GreatRunway.length-1)
-          {
-            greattext += GreatRunway[i].GetName()+", ";
-          }
-          else
-          {
-            if(GreatRunway.length!=1)
-            {
-              greattext += " and "+GreatRunway[i].GetName();
-            }
-            else
-            {
-              greattext += GreatRunway[i].GetName();
-            }
-          }
-        }
-        Main.createText(greattext+" had a great runway.", "Bold");
-      }
-
-      if(GoodRunway.length!=0)
-      {
-        for(let i = 0; i < GoodRunway.length; i++)
-        {
-          Main.createImage(GoodRunway[i].image,"#6eff72");
-          if(i!=GoodRunway.length-1)
-          {
-            goodtext += GoodRunway[i].GetName()+", ";
-          }
-          else
-          {
-            if(GoodRunway.length!=1)
-            {
-              goodtext += " and "+GoodRunway[i].GetName();
-            }
-            else
-            {
-              goodtext += GoodRunway[i].GetName();
-            }
-          }
-        }
-        Main.createText(goodtext+" had a good runway.", "Bold");
-      }
-
-      if(BadRunway.length!=0)
-      {
-        for(let i = 0; i < BadRunway.length; i++)
-        {
-          Main.createImage(BadRunway[i].image,"#ffe96e");
-          if(i!=BadRunway.length-1)
-          {
-            badtext += BadRunway[i].GetName()+", ";
-          }
-          else
-          {
-            if(BadRunway.length!=1)
-            {
-              badtext += " and "+BadRunway[i].GetName();
-            }
-            else
-            {
-              badtext += BadRunway[i].GetName();
-            }
-          }
-        }
-        Main.createText(badtext+" had a bad runway.", "Bold");
-      }
-
+  
       if(FloppedRunway.length!=0)
       {
         for(let i = 0; i < FloppedRunway.length; i++)
@@ -3606,7 +2901,7 @@ class ImprovChallenge{
 
   TopPlacement()
   {
-
+    
     let Top = [
     "Tonight, you knew how to work it OUT!",
     "Tonight, you shined all over this runway.",
@@ -3625,7 +2920,7 @@ class ImprovChallenge{
 
   BtmPlacement()
   {
-
+    
     let Btm = [
     ", you came here to slay, but tonight your outfit slayed you.",
     ", on the runway, you ran out of gas.",
@@ -3680,8 +2975,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-
-
+      
+  
       if(SlayedChallenge.length!=0)
       {
         for(let i = 0; i < SlayedChallenge.length; i++)
@@ -3705,7 +3000,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the challenge.", "Bold");
       }
-
+  
       if(GreatChallenge.length!=0)
       {
         for(let i = 0; i < GreatChallenge.length; i++)
@@ -3729,7 +3024,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great performance.", "Bold");
       }
-
+  
       if(GoodChallenge.length!=0)
       {
         for(let i = 0; i < GoodChallenge.length; i++)
@@ -3753,7 +3048,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good performance.", "Bold");
       }
-
+  
       if(BadChallenge.length!=0)
       {
         for(let i = 0; i < BadChallenge.length; i++)
@@ -3777,7 +3072,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad performance.", "Bold");
       }
-
+  
       if(FloppedChallenge.length!=0)
       {
         for(let i = 0; i < FloppedChallenge.length; i++)
@@ -3843,8 +3138,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-
-
+      
+  
       if(SlayedRunway.length!=0)
       {
         for(let i = 0; i < SlayedRunway.length; i++)
@@ -3868,7 +3163,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the runway.", "Bold");
       }
-
+  
       if(GreatRunway.length!=0)
       {
         for(let i = 0; i < GreatRunway.length; i++)
@@ -3892,7 +3187,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great runway.", "Bold");
       }
-
+  
       if(GoodRunway.length!=0)
       {
         for(let i = 0; i < GoodRunway.length; i++)
@@ -3916,7 +3211,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good runway.", "Bold");
       }
-
+  
       if(BadRunway.length!=0)
       {
         for(let i = 0; i < BadRunway.length; i++)
@@ -3940,7 +3235,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad runway.", "Bold");
       }
-
+  
       if(FloppedRunway.length!=0)
       {
         for(let i = 0; i < FloppedRunway.length; i++)
@@ -4036,12 +3331,8 @@ class ImprovChallenge{
 
   TopPlacement()
   {
-
+    
     let Top = [
-    "Tonight, you played to your strengths, and you came out on top.",
-    "You had this challenge in the bag.",
-    "You navigated this challenge beautifully, and we were swept away.",
-    "Not only did you turn it out, girl, you turned it upside down.",
     "Tonight, your choreography blew us away.",
     "Tonight, we saw how bright you shine.",
     "You have dancing running throught your veins.",
@@ -4054,16 +3345,9 @@ class ImprovChallenge{
 
   BtmPlacement()
   {
-
+    
     let Btm = [
-    ", You light up our lives, but this week, you let the other queens outshine you.",
-    ", You, my dear, are one wild child. But in this week’s challenge, you were eaten alive.",
-    ", Your performance was a real departure, but to a destination unknown.",
-    ", Your big opening was a little sloppy.",
-    ", In your performance, you put your left foot forward. Both of them",
-    ", You are a fierce queen, but this week, you put the ain’t in entertaintment.",
-    ", You’re a good sport, but this week, you fumbled the ball.",
-    ", You aimed high, but your routine was a buzzkill.",
+    ", your comedy could have used a few laugh.",
     ", on the runway, you ran out of gas.",
     ", tonight the judges did not say yes to the dress.",
     ", your outfit had a story. A very confusing one.",
@@ -4116,8 +3400,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-
-
+      
+  
       if(SlayedChallenge.length!=0)
       {
         for(let i = 0; i < SlayedChallenge.length; i++)
@@ -4141,7 +3425,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the challenge.", "Bold");
       }
-
+  
       if(GreatChallenge.length!=0)
       {
         for(let i = 0; i < GreatChallenge.length; i++)
@@ -4165,7 +3449,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great performance.", "Bold");
       }
-
+  
       if(GoodChallenge.length!=0)
       {
         for(let i = 0; i < GoodChallenge.length; i++)
@@ -4189,7 +3473,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good performance.", "Bold");
       }
-
+  
       if(BadChallenge.length!=0)
       {
         for(let i = 0; i < BadChallenge.length; i++)
@@ -4213,7 +3497,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad performance.", "Bold");
       }
-
+  
       if(FloppedChallenge.length!=0)
       {
         for(let i = 0; i < FloppedChallenge.length; i++)
@@ -4279,8 +3563,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-
-
+      
+  
       if(SlayedRunway.length!=0)
       {
         for(let i = 0; i < SlayedRunway.length; i++)
@@ -4304,7 +3588,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the runway.", "Bold");
       }
-
+  
       if(GreatRunway.length!=0)
       {
         for(let i = 0; i < GreatRunway.length; i++)
@@ -4328,7 +3612,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great runway.", "Bold");
       }
-
+  
       if(GoodRunway.length!=0)
       {
         for(let i = 0; i < GoodRunway.length; i++)
@@ -4352,7 +3636,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good runway.", "Bold");
       }
-
+  
       if(BadRunway.length!=0)
       {
         for(let i = 0; i < BadRunway.length; i++)
@@ -4376,7 +3660,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad runway.", "Bold");
       }
-
+  
       if(FloppedRunway.length!=0)
       {
         for(let i = 0; i < FloppedRunway.length; i++)
@@ -4403,7 +3687,7 @@ class ImprovChallenge{
     }
   }
 
-
+  
   class CommercialChallenge{
 
     constructor(){
@@ -4419,9 +3703,9 @@ class ImprovChallenge{
         "need to create commercials for a new dating app.",
         "need to create commercial about forgotten firsts outs queens."
       ];
-
+  
       this.chosen = getRandomInt(0,this.commercial.length-1);
-
+  
       this.episodename = "";
       switch(this.chosen)
       {
@@ -4448,7 +3732,7 @@ class ImprovChallenge{
           break;
       }
     }
-
+  
     createMessage()
     {
       switch(getRandomInt(0,1))
@@ -4467,19 +3751,16 @@ class ImprovChallenge{
           break;
       }
     }
-
+  
     createBrief()
     {
       Main.createText("This week, the queens will "+this.commercial[this.chosen]);
     }
-
+  
     TopPlacement()
     {
-
+      
       let Top = [
-      "You were serving, and left us gagging for more.",
-      "Tonight, you played to your strengths, and you came out on top.",
-      "Not only did you turn it out, girl, you turned it upside down.",
       "Tonight, your choreography blew us away.",
       "Tonight, we saw how bright you shine.",
       "You have dancing running throught your veins.",
@@ -4489,14 +3770,11 @@ class ImprovChallenge{
       ];
       return(Top[getRandomInt(0,Top.length-1)]);
     }
-
+  
     BtmPlacement()
     {
-
+      
       let Btm = [
-      ", The judges were Mad About You — but not in a good way.",
-      ", You went for the comedy gold, but all we got was bronze.",
-      ", You are a fierce queen, but this week, you put the ain’t in entertaintment.",
       ", your comedy could have used a few laugh.",
       ", on the runway, you ran out of gas.",
       ", tonight the judges did not say yes to the dress.",
@@ -4507,16 +3785,16 @@ class ImprovChallenge{
       ];
       return(Btm[getRandomInt(0,Btm.length-1)]);
     }
-
+  
     rankPerfomances()
     {
         for(let i = 0; i < CurrentSeason.currentCast.length;i++)
         {
           CurrentSeason.currentCast[i].GetCommercial();
         }
-
+  
         CurrentSeason.currentCast.sort((a, b) => a.perfomancescore - b.perfomancescore);
-
+  
         for(let i = 0; i<CurrentSeason.currentCast.length; i++)
         {
           if(CurrentSeason.currentCast[i].perfomancescore<=8)
@@ -4540,9 +3818,9 @@ class ImprovChallenge{
             FloppedChallenge.push(CurrentSeason.currentCast[i]);
           }
         }
-
+  
     }
-
+  
       createPerformances()
       {
         let slayedtext = "";
@@ -4550,8 +3828,8 @@ class ImprovChallenge{
         let goodtext = "";
         let badtext = "";
         let floptext = "";
-
-
+        
+    
         if(SlayedChallenge.length!=0)
         {
           for(let i = 0; i < SlayedChallenge.length; i++)
@@ -4575,7 +3853,7 @@ class ImprovChallenge{
           }
           Main.createText(slayedtext+" slayed the challenge.", "Bold");
         }
-
+    
         if(GreatChallenge.length!=0)
         {
           for(let i = 0; i < GreatChallenge.length; i++)
@@ -4599,7 +3877,7 @@ class ImprovChallenge{
           }
           Main.createText(greattext+" had a great performance.", "Bold");
         }
-
+    
         if(GoodChallenge.length!=0)
         {
           for(let i = 0; i < GoodChallenge.length; i++)
@@ -4623,7 +3901,7 @@ class ImprovChallenge{
           }
           Main.createText(goodtext+" had a good performance.", "Bold");
         }
-
+    
         if(BadChallenge.length!=0)
         {
           for(let i = 0; i < BadChallenge.length; i++)
@@ -4647,7 +3925,7 @@ class ImprovChallenge{
           }
           Main.createText(badtext+" had a bad performance.", "Bold");
         }
-
+    
         if(FloppedChallenge.length!=0)
         {
           for(let i = 0; i < FloppedChallenge.length; i++)
@@ -4672,7 +3950,7 @@ class ImprovChallenge{
           Main.createText(floptext+" flopped the challenge.", "Bold");
         }
       }
-
+  
       rankRunways()
       {
         for(let i = 0; i < CurrentSeason.currentCast.length;i++)
@@ -4680,7 +3958,7 @@ class ImprovChallenge{
           CurrentSeason.currentCast[i].getRunway();
           CurrentSeason.currentCast[i].finalscore = CurrentSeason.currentCast[i].perfomancescore - CurrentSeason.currentCast[i].runway;
         }
-
+  
         for(let i = 0; i<CurrentSeason.currentCast.length; i++)
         {
           if(CurrentSeason.currentCast[i].runwayscore<=2)
@@ -4705,7 +3983,7 @@ class ImprovChallenge{
           }
         }
       }
-
+  
       createRunways()
       {
         let slayedtext = "";
@@ -4713,8 +3991,8 @@ class ImprovChallenge{
         let goodtext = "";
         let badtext = "";
         let floptext = "";
-
-
+        
+    
         if(SlayedRunway.length!=0)
         {
           for(let i = 0; i < SlayedRunway.length; i++)
@@ -4738,7 +4016,7 @@ class ImprovChallenge{
           }
           Main.createText(slayedtext+" slayed the runway.", "Bold");
         }
-
+    
         if(GreatRunway.length!=0)
         {
           for(let i = 0; i < GreatRunway.length; i++)
@@ -4762,7 +4040,7 @@ class ImprovChallenge{
           }
           Main.createText(greattext+" had a great runway.", "Bold");
         }
-
+    
         if(GoodRunway.length!=0)
         {
           for(let i = 0; i < GoodRunway.length; i++)
@@ -4786,7 +4064,7 @@ class ImprovChallenge{
           }
           Main.createText(goodtext+" had a good runway.", "Bold");
         }
-
+    
         if(BadRunway.length!=0)
         {
           for(let i = 0; i < BadRunway.length; i++)
@@ -4810,7 +4088,7 @@ class ImprovChallenge{
           }
           Main.createText(badtext+" had a bad runway.", "Bold");
         }
-
+    
         if(FloppedRunway.length!=0)
         {
           for(let i = 0; i < FloppedRunway.length; i++)
@@ -4853,9 +4131,9 @@ class ImprovChallenge{
         "need to create a commercial about their own drink.",
         "need to create a commercial about their yeast spread.",
       ];
-
+  
       this.chosen = getRandomInt(0,this.commercial.length-1);
-
+  
       this.episodename = "";
       switch(this.chosen)
       {
@@ -4885,7 +4163,7 @@ class ImprovChallenge{
           break;
       }
     }
-
+  
     createMessage()
     {
       switch(getRandomInt(0,1))
@@ -4904,15 +4182,15 @@ class ImprovChallenge{
           break;
       }
     }
-
+  
     createBrief()
     {
       Main.createText("This week, the queens will "+this.commercial[this.chosen]);
     }
-
+  
     TopPlacement()
     {
-
+      
       let Top = [
       "Tonight, your choreography blew us away.",
       "Tonight, we saw how bright you shine.",
@@ -4923,10 +4201,10 @@ class ImprovChallenge{
       ];
       return(Top[getRandomInt(0,Top.length-1)]);
     }
-
+  
     BtmPlacement()
     {
-
+      
       let Btm = [
       ", your comedy could have used a few laugh.",
       ", on the runway, you ran out of gas.",
@@ -4938,16 +4216,16 @@ class ImprovChallenge{
       ];
       return(Btm[getRandomInt(0,Btm.length-1)]);
     }
-
+  
     rankPerfomances()
     {
         for(let i = 0; i < CurrentSeason.currentCast.length;i++)
         {
           CurrentSeason.currentCast[i].GetCommercial();
         }
-
+  
         CurrentSeason.currentCast.sort((a, b) => a.perfomancescore - b.perfomancescore);
-
+  
         for(let i = 0; i<CurrentSeason.currentCast.length; i++)
         {
           if(CurrentSeason.currentCast[i].perfomancescore<=8)
@@ -4971,9 +4249,9 @@ class ImprovChallenge{
             FloppedChallenge.push(CurrentSeason.currentCast[i]);
           }
         }
-
+  
     }
-
+  
       createPerformances()
       {
         let slayedtext = "";
@@ -4981,8 +4259,8 @@ class ImprovChallenge{
         let goodtext = "";
         let badtext = "";
         let floptext = "";
-
-
+        
+    
         if(SlayedChallenge.length!=0)
         {
           for(let i = 0; i < SlayedChallenge.length; i++)
@@ -5006,7 +4284,7 @@ class ImprovChallenge{
           }
           Main.createText(slayedtext+" slayed the challenge.", "Bold");
         }
-
+    
         if(GreatChallenge.length!=0)
         {
           for(let i = 0; i < GreatChallenge.length; i++)
@@ -5030,7 +4308,7 @@ class ImprovChallenge{
           }
           Main.createText(greattext+" had a great performance.", "Bold");
         }
-
+    
         if(GoodChallenge.length!=0)
         {
           for(let i = 0; i < GoodChallenge.length; i++)
@@ -5054,7 +4332,7 @@ class ImprovChallenge{
           }
           Main.createText(goodtext+" had a good performance.", "Bold");
         }
-
+    
         if(BadChallenge.length!=0)
         {
           for(let i = 0; i < BadChallenge.length; i++)
@@ -5078,7 +4356,7 @@ class ImprovChallenge{
           }
           Main.createText(badtext+" had a bad performance.", "Bold");
         }
-
+    
         if(FloppedChallenge.length!=0)
         {
           for(let i = 0; i < FloppedChallenge.length; i++)
@@ -5103,7 +4381,7 @@ class ImprovChallenge{
           Main.createText(floptext+" flopped the challenge.", "Bold");
         }
       }
-
+  
       rankRunways()
       {
         for(let i = 0; i < CurrentSeason.currentCast.length;i++)
@@ -5111,7 +4389,7 @@ class ImprovChallenge{
           CurrentSeason.currentCast[i].getRunway();
           CurrentSeason.currentCast[i].finalscore = CurrentSeason.currentCast[i].perfomancescore - CurrentSeason.currentCast[i].runway;
         }
-
+  
         for(let i = 0; i<CurrentSeason.currentCast.length; i++)
         {
           if(CurrentSeason.currentCast[i].runwayscore<=2)
@@ -5136,7 +4414,7 @@ class ImprovChallenge{
           }
         }
       }
-
+  
       createRunways()
       {
         let slayedtext = "";
@@ -5144,8 +4422,8 @@ class ImprovChallenge{
         let goodtext = "";
         let badtext = "";
         let floptext = "";
-
-
+        
+    
         if(SlayedRunway.length!=0)
         {
           for(let i = 0; i < SlayedRunway.length; i++)
@@ -5169,7 +4447,7 @@ class ImprovChallenge{
           }
           Main.createText(slayedtext+" slayed the runway.", "Bold");
         }
-
+    
         if(GreatRunway.length!=0)
         {
           for(let i = 0; i < GreatRunway.length; i++)
@@ -5193,7 +4471,7 @@ class ImprovChallenge{
           }
           Main.createText(greattext+" had a great runway.", "Bold");
         }
-
+    
         if(GoodRunway.length!=0)
         {
           for(let i = 0; i < GoodRunway.length; i++)
@@ -5217,7 +4495,7 @@ class ImprovChallenge{
           }
           Main.createText(goodtext+" had a good runway.", "Bold");
         }
-
+    
         if(BadRunway.length!=0)
         {
           for(let i = 0; i < BadRunway.length; i++)
@@ -5241,7 +4519,7 @@ class ImprovChallenge{
           }
           Main.createText(badtext+" had a bad runway.", "Bold");
         }
-
+    
         if(FloppedRunway.length!=0)
         {
           for(let i = 0; i < FloppedRunway.length; i++)
@@ -5349,11 +4627,8 @@ class ImprovChallenge{
 
   TopPlacement()
   {
-
+    
     let Top = [
-    "Tonight, you played to your strengths, and you came out on top.",
-    "You navigated this challenge beautifully, and we were swept away.",
-    "Tonight, you didn’t just kill it. You were a mass murderer.",
     "Tonight, you knew how to get the laugh out of us.",
     "Tonight, we saw how bright you shine.",
     "You have comedy running throught your veins.",
@@ -5367,12 +4642,8 @@ class ImprovChallenge{
 
   BtmPlacement()
   {
-
+    
     let Btm = [
-    ", You light up our lives, but this week, you let the other queens outshine you.",
-    ", This week, you wore your heart on your sleeve, but your mind got the better of you",
-    ", You are a smart cookie, but tonight, you crumbled.",
-    ", You showed us that big girls do cry.",
     ", your comedy could have used a few laugh.",
     ", on the runway, you ran out of gas.",
     ", tonight the judges did not say yes to the dress.",
@@ -5426,8 +4697,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-
-
+      
+  
       if(SlayedChallenge.length!=0)
       {
         for(let i = 0; i < SlayedChallenge.length; i++)
@@ -5451,7 +4722,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the challenge.", "Bold");
       }
-
+  
       if(GreatChallenge.length!=0)
       {
         for(let i = 0; i < GreatChallenge.length; i++)
@@ -5475,7 +4746,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great performance.", "Bold");
       }
-
+  
       if(GoodChallenge.length!=0)
       {
         for(let i = 0; i < GoodChallenge.length; i++)
@@ -5499,7 +4770,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good performance.", "Bold");
       }
-
+  
       if(BadChallenge.length!=0)
       {
         for(let i = 0; i < BadChallenge.length; i++)
@@ -5523,7 +4794,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad performance.", "Bold");
       }
-
+  
       if(FloppedChallenge.length!=0)
       {
         for(let i = 0; i < FloppedChallenge.length; i++)
@@ -5589,8 +4860,8 @@ class ImprovChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-
-
+      
+  
       if(SlayedRunway.length!=0)
       {
         for(let i = 0; i < SlayedRunway.length; i++)
@@ -5614,7 +4885,7 @@ class ImprovChallenge{
         }
         Main.createText(slayedtext+" slayed the runway.", "Bold");
       }
-
+  
       if(GreatRunway.length!=0)
       {
         for(let i = 0; i < GreatRunway.length; i++)
@@ -5638,7 +4909,7 @@ class ImprovChallenge{
         }
         Main.createText(greattext+" had a great runway.", "Bold");
       }
-
+  
       if(GoodRunway.length!=0)
       {
         for(let i = 0; i < GoodRunway.length; i++)
@@ -5662,7 +4933,7 @@ class ImprovChallenge{
         }
         Main.createText(goodtext+" had a good runway.", "Bold");
       }
-
+  
       if(BadRunway.length!=0)
       {
         for(let i = 0; i < BadRunway.length; i++)
@@ -5686,7 +4957,7 @@ class ImprovChallenge{
         }
         Main.createText(badtext+" had a bad runway.", "Bold");
       }
-
+  
       if(FloppedRunway.length!=0)
       {
         for(let i = 0; i < FloppedRunway.length; i++)
@@ -6247,8 +5518,8 @@ class FinalChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-
-
+      
+  
       if(SlayedChallenge.length!=0)
       {
         for(let i = 0; i < SlayedChallenge.length; i++)
@@ -6272,7 +5543,7 @@ class FinalChallenge{
         }
         Main.createText(slayedtext+" slayed the challenge.", "Bold");
       }
-
+  
       if(GreatChallenge.length!=0)
       {
         for(let i = 0; i < GreatChallenge.length; i++)
@@ -6296,7 +5567,7 @@ class FinalChallenge{
         }
         Main.createText(greattext+" had a great performance.", "Bold");
       }
-
+  
       if(GoodChallenge.length!=0)
       {
         for(let i = 0; i < GoodChallenge.length; i++)
@@ -6320,7 +5591,7 @@ class FinalChallenge{
         }
         Main.createText(goodtext+" had a good performance.", "Bold");
       }
-
+  
       if(BadChallenge.length!=0)
       {
         for(let i = 0; i < BadChallenge.length; i++)
@@ -6344,7 +5615,7 @@ class FinalChallenge{
         }
         Main.createText(badtext+" had a bad performance.", "Bold");
       }
-
+  
       if(FloppedChallenge.length!=0)
       {
         for(let i = 0; i < FloppedChallenge.length; i++)
@@ -6410,8 +5681,8 @@ class FinalChallenge{
       let goodtext = "";
       let badtext = "";
       let floptext = "";
-
-
+      
+  
       if(SlayedRunway.length!=0)
       {
         for(let i = 0; i < SlayedRunway.length; i++)
@@ -6435,7 +5706,7 @@ class FinalChallenge{
         }
         Main.createText(slayedtext+" slayed the runway.", "Bold");
       }
-
+  
       if(GreatRunway.length!=0)
       {
         for(let i = 0; i < GreatRunway.length; i++)
@@ -6459,7 +5730,7 @@ class FinalChallenge{
         }
         Main.createText(greattext+" had a great runway.", "Bold");
       }
-
+  
       if(GoodRunway.length!=0)
       {
         for(let i = 0; i < GoodRunway.length; i++)
@@ -6483,7 +5754,7 @@ class FinalChallenge{
         }
         Main.createText(goodtext+" had a good runway.", "Bold");
       }
-
+  
       if(BadRunway.length!=0)
       {
         for(let i = 0; i < BadRunway.length; i++)
@@ -6507,7 +5778,7 @@ class FinalChallenge{
         }
         Main.createText(badtext+" had a bad runway.", "Bold");
       }
-
+  
       if(FloppedRunway.length!=0)
       {
         for(let i = 0; i < FloppedRunway.length; i++)
@@ -6583,15 +5854,8 @@ class DesignChallenge{
 
   TopPlacement()
   {
-
+    
     let Top = [
-    "You wished upon a star, and your dreams came true.",
-    "Tonight, you played to your strengths, and you came out on top.",
-    "You had this challenge in the bag.",
-    "You were serving, and left us gagging for more.",
-    "You navigated this challenge beautifully, and we were swept away.",
-    "Not only did you turn it out, girl, you turned it upside down.",
-    "This week, you spun straw into gold.",
     "Tonight, you knew how to work it OUT!",
     "Tonight, you shined all over this runway.",
     "You ruled over this runway.",
@@ -6609,12 +5873,8 @@ class DesignChallenge{
 
   BtmPlacement()
   {
-
+    
     let Btm = [
-    ", You and a sewing machine are a recipe for disaster.",
-    ", Your personality is off the hook, but your runway fashions looked off the rack.",
-    ", Your runway strut was pure vogue. But your outfit was vague.",
-    ", The judges were Mad About You — but not in a good way.",
     ", you came here to slay, but tonight your outfit slayed you.",
     ", on the runway, you ran out of gas.",
     ", tonight the judges did not say yes to the dress.",
@@ -6679,7 +5939,7 @@ class DesignChallenge{
     let goodtext = "";
     let badtext = "";
     let floptext = "";
-
+    
 
     if(SlayedChallenge.length!=0)
     {
@@ -7387,9 +6647,8 @@ let sahara = new Queen("Sahara Davenport", 8, 6, 8, 14, 5, 8, 14, 10, 9, 5, 0, "
 let shangela = new Queen("Shangela", 8, 6, 8, 7, 2, 5, 5, 10, 12, 2, 2, "Shangela", "Shangela", "US2", false);
 let kylies2 = new Queen("Kylie Sonique Love", 8, 7, 5, 8, 10, 10, 13, 8, 10, 4, 0, "Sonique", "Sonique", "US2", false);
 let tatis2 = new Queen("Tatianna", 8, 10, 12, 8, 5, 8, 9, 5, 14, 3, 3, "Tatianna", "Tatianna", "US2", false);
-let tyra = new Queen("Tyra Sanchez", 14, 10, 12, 6, 12, 10, 14, 12, 8, 1, 4, "Tyra", "Tyra", "US2", false);
+let james = new Queen("James Ross", 14, 10, 12, 6, 12, 10, 14, 12, 8, 1, 4, "James", "James", "US2", false);
 
-<<<<<<< HEAD
 let US2 = shuffle([jessicaw, jujus2, morganmcs2, mystique, npb, pandoras2, sahara, shangela, kylies2, tatis2, james]);
 
 let raja = new Queen("Raja", 11, 10, 6, 6, 15, 15, 9, 13, 10, 4, 0, "Raja", "Raja", "US3", false);
@@ -7575,151 +6834,21 @@ let veronicas3 = new Queen("Veronica Green", 9, 8, 8, 9, 6, 6, 6, 7, 7, 5, 1, "V
 let victoriaS = new Queen("Victoria Scone", 8, 10, 8, 7, 9, 9, 8, 9, 10, 5, 1, "VictoriaS", "VictoriaS", "UK3", false);
 
 let UK3 = shuffle([anubis, charity, choriza, elektraf, ella, kitty, krystal, river, scarlett, vanity, veronicas3, victoriaS])
-=======
-let US2 = shuffle([jessicaw, jujus2, morganmcs2, mystique, npb, pandoras2, sahara, shangela, kylies2, tatis2, tyra]);
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
 
-let raja = new Queen("Raja", 11, 10, 6, 6, 15, 15, 9, 13, 10, 4, 0, "Raja", "Raja", "US3", false);
-let manila = new Queen("Manila Luzon", 12, 11, 9, 8, 9, 12, 8, 12, 9, 4, 1, "Manila", "Manila", "US3", false);
-let alexis = new Queen("Alexis Mateo", 10, 10, 10, 11, 10, 9, 11, 10, 13, 4, 1, "Alexis", "Alexis", "US3", false);
-let yara = new Queen("Yara Sofia", 9, 9, 8, 9, 9, 8, 7, 10, 15, 4, 1, "Yara", "Yara", "US3", false);
-let carmen = new Queen("Carmen Carrera", 7, 5, 4, 7, 6, 7, 8, 7, 5, 1, 3, "Carmen", "Carmen", "US3", false);
-let shangelas3 = new Queen("Shangela", 10, 11, 13, 11, 6, 7, 10, 12, 10, 2, 3, "Shangela", "Shangela", "US3", false);
-let delta = new Queen("Delta Work", 7, 6, 4, 1, 5, 4, 8, 7, 5, 2, 3, "Delta", "Delta", "US3", false);
-let stacy = new Queen("Stacy Layne Matthews", 8, 10, 8, 4, 5, 5, 4, 12, 12, 4, 1, "Stacy", "Stacy", "US3", false);
-let mariah = new Queen("Mariah Paris Balenciaga", 5, 4, 4, 6, 9, 8, 6, 6, 6, 4, 1, "Mariah", "Mariah", "US3", false);
-let india = new Queen("India Ferrah", 8, 6, 6, 10, 8, 8, 8, 7, 5, 3, 2, "India", "India", "US3", false);
-let mimi = new Queen("Mimi Imfurst", 9, 8, 7, 4, 5, 5, 4, 6, 1, 2, 3, "Mimi", "Mimi", "US3", false);
-let phoenix = new Queen("Phoenix", 5, 3, 5, 6, 7, 4, 1, 5, 2, 2, 3, "Phoenix", "Phoenix", "US3", false);
-let venus = new Queen("Venus D-Lite", 6, 5, 4, 5, 5, 4, 3, 5, 1, 2, 2, "Venus", "Venus", "US3", false);
-
-let US3 = shuffle([raja, manila, alexis, yara, carmen, shangelas3, delta, stacy, mariah, india, mimi, phoenix, venus]);
-//acting, improv, comedy, dance, design, runway, lipsync, branding, charisma, kindness, shadyness
-let alisa = new Queen("Alisa Summers", 4, 4, 5, 2, 3, 5, 4, 3, 4, 3, 1, "Alisa", "Alisa", "US4", false);
-let chad = new Queen("Chad Michaels", 11, 10, 8, 9, 12, 10, 8, 11, 9, 4, 0, "Chad", "Chad", "US4", false);
-let dida = new Queen("Dida Ritz", 8, 7, 8, 5, 7, 7, 12, 9, 11, 4, 1, "Dida", "Dida", "US4", false);
-let jiggly = new Queen("Jiggly Caliente", 4, 6, 9, 4, 4, 7, 10, 12, 3, 2, "Jiggly", "Jiggly", "US4", false);
-let kenya = new Queen("Kenya Michaels", 9, 6, 6, 6, 8, 7, 8, 10, 13, 4, 1, "Kenya", "Kenya", "US4", false );
-let lashauwn = new Queen("Lashauwn Beyond", 4, 4, 6, 11, 8, 7, 7, 6, 7, 3, 2, "Lashauwn", "Lashauwn", "US4", false);
-let latrice = new Queen("Latrice Royale", 11, 8, 9, 8, 7, 9, 13, 12, 15, 5, 0, "Latrice", "Latrice", "US4", false);
-let madame = new Queen("Madame LaQueer", 4, 7, 6, 5, 9, 7, 6, 7, 7, 3, 1, "Madame", "Madame", "US4", false);
-let milan = new Queen("Milan", 4, 5, 9, 7, 5, 8, 10, 5, 8, 4, 1, "Milan", "Milan", "US4", false);
-let phiphi = new Queen("Phi Phi O'Hara", 13, 9, 8, 10, 10, 10, 8, 10, 2, 0, 5, "PhiPhi", "PhiPhi", "US4", false);
-let princess = new Queen("The Princess", 4, 4, 5, 7, 4, 7, 5, 6, 5, 3, 2, "Princess", "Princess", "US4", false);
-let willam = new Queen("Willam", 10, 8, 7, 10, 10, 9, 8, 15, 11, 2, 4, "Willam", "Willam", "US4", false);
-
-let US4 = shuffle([alisa, chad, dida, jiggly, kenya, lashauwn, latrice, madame, milan, phiphi, princess, willam])
-
-let adore = new Queen("Adore Delano", 9, 11, 9, 6, 9, 8, 11, 12, 12, 4, 1, "Adore", "Adore", "US6", false);
-let april = new Queen("April Carrión", 5, 5, 6, 9, 5, 9, 8, 6, 10, 5, 0, "April", "April", "US6", false);
-let bendela = new Queen("BenDeLaCreme", 12, 12, 11, 10, 15, 10, 9, 13, 13, 5, 0, "Ben", "Ben", "US6", false);
-let bianca = new Queen("Bianca Del Rio", 11, 15, 7, 13, 15, 10, 5, 15, 10, 2, 4, "Bianca", "Bianca", "US6", false);
-let courtney = new Queen("Courtney Act", 11, 8, 10, 10, 10, 12, 9, 11, 10, 3,3, "Courtney", "Courtney", "US6", false);
-let darienne = new Queen("Darienne Lake", 11, 8, 7, 4, 9, 8, 13, 10, 11, 3,3, "Darienne", "Darienne", "US6", false);
-let gia = new Queen("Gia Gunn", 10, 4, 8, 8, 4, 8, 9, 10, 4, 0, 5, "Gia", "Gia", "US6", false);
-let joslyn = new Queen("Joslyn Fox", 6, 7, 8, 6, 8, 8, 11, 8, 10, 4, 1, "Joslyn", "Joslyn", "US6", false);
-let kelly = new Queen("Kelly Mantle", 6, 6, 5, 5, 4, 7, 4, 8, 6, 4, 1, "Kelly", "Kelly", "US6", false);
-let laganja = new Queen("Laganja Estranja", 9, 5, 14, 8, 6, 10, 15, 10, 13, 4, 3, "Laganja", "Laganja", "US6", false);
-let magnolia = new Queen("Magnolia Crawford", 4, 5, 6, 4, 5, 7, 4, 3, 3, 2, 3, "Magnolia", "Magnolia", "US6", false);
-let milk = new Queen("Milk", 6, 6, 7, 8, 8, 7, 7, 10, 7, 3, 4, "Milk", "Milk", "US6", false);
-let trinityk = new Queen("Trinity K. Bonet", 9, 9, 13, 12, 4, 10, 15, 10, 8, 4, 2, "Trinity", "Trinity", "US6", false);
-let vivacious = new Queen("Vivacious", 4, 5, 5, 4, 4, 7, 7, 9, 7, 4, 2, "Vivacious", "Vivacious", "US6", false);
-
-let US6 = shuffle([bianca, adore, courtney, darienne, bendela, joslyn, trinityk, laganja, milk, gia, april, vivacious, magnolia, kelly,])
-
-let bob = new Queen("Bob The Drag Queen", 12, 13, 15, 11, 6, 9, 12, 15, 15, 3, 2, "Bob", "Bob", "US8", false);
-let kimchi = new Queen("Kim Chi", 9, 10, 10, 3, 10, 10, 4, 10, 10, 3, 2, "Kim", "Kim", "US8", false);
-let naomi = new Queen("Naomi Smalls", 10, 9, 10, 9, 13, 12, 13, 10, 8, 3, 1, "Naomi", "Naomi", "US8", false);
-let chichi = new Queen("Chi Chi DeVayne", 7, 7, 7, 13, 7, 6, 13, 9, 9, 4, 1, "ChiChi", "ChiChi", "US8", false);
-let derrick = new Queen("Derrick Barry", 7, 7, 8, 8, 9, 7, 8, 10, 5, 1, 4, "Derrick", "Derrick", "US8", false);
-let thorgy = new Queen("Thorgy Thor", 14, 9, 6, 9, 13, 9, 8, 12, 12, 2, 3, "Thorgy", "Thorgy", "US8", false);
-let robbie = new Queen("Robbie Turner", 4, 5, 6, 4, 3, 6, 6, 5, 1, 3, 3, "Robbie", "Robbie", "US8", false);
-let acid = new Queen("Acid Betty", 9, 4, 7, 10, 5, 11, 7, 7, 5, 2, 2, "Acid", "Acid", "US8", false);
-let naysha = new Queen("Naysha Lopez", 6, 4, 4, 4, 3, 6, 7, 6, 6, 4, 1, "Naysha", "Naysha", "US8", false);
-let cynthia = new Queen("Cynthia Lee Fontaine", 4, 4, 7, 6, 4, 7, 6, 10, 12, 5, 0, "Cynthia", "Cynthia", "US8", false);
-let dax = new Queen("Dax Exclamationpoint", 5, 6, 6, 5, 6, 5, 4, 6, 5, 4, 2, "Dax", "Dax", "US8", false);
-let laila = new Queen("Laila McQueen", 7, 6, 4, 7, 6, 8, 7, 8, 8, 4, 1, "Laila", "Laila", "US8", false);
-
-let US8 = shuffle([bob, kimchi, naomi, chichi, derrick, thorgy, robbie, acid, naysha, cynthia, dax, laila])
-
-let jaida = new Queen("Jaida Essence Hall", 8, 11, 8, 10, 14, 15, 13, 14, 13, 4, 1, "Jaida", "Jaida", "US12",false);
-let crystalm = new Queen("Crystal Methyd", 8, 10, 12, 8, 10, 12, 8, 15, 10, 4, 1, "Crystal", "Crystal", "US12", false);
-let gigi = new Queen("Gigi Goode", 11, 11, 13, 7, 12, 10, 8, 10, 9, 4, 1, "Gigi", "Gigi", "US12", false);
-let jackie = new Queen("Jackie Cox", 12, 10, 11, 8, 7, 10, 11, 10, 7, 4, 1, "Jackie", "Jackie", "US12", false);
-let heidi = new Queen("Heidi N Closet", 9, 10, 10, 11, 8, 8, 14, 12, 15, 5, 0, "Heidi", "Heidi", "US12", false);
-let widow = new Queen("Widow Von'Du", 10, 10, 10, 14, 10, 11, 13, 5, 10, 4, 1, "Widow", "Widow", "US12", false);
-let jan = new Queen("Jan", 9, 10, 10, 7, 11, 10, 5, 8, 7, 6, 2, "Jan", "Jan", "US12", false);
-let brita = new Queen("Brita", 7, 6, 9, 10, 6, 9, 12, 14, 10, 2, 3, "Brita", "Brita", "US12", false);
-let aiden = new Queen("Aiden Zhane", 8, 7, 7, 6, 6, 7, 6, 10, 7, 2, 2, "Aiden", "Aiden", "US12", false);
-let nicky = new Queen("Nicky Doll", 7, 6, 6, 6, 15, 15, 7, 7, 9, 4, 1, "Nicky", "Nicky", "US12", false);
-let rock = new Queen("Rock M. Sakura", 10, 8, 9, 10, 6, 9, 8, 12, 12, 3, 1, "Rock", "Rock", "US12", false);
-let dahlia = new Queen("Dahlia Sin", 7, 6, 4, 4, 10, 15, 5, 10, 9, 1, 4, "Dahlia", "Dahlia", "US12", false);
-
-let US12 = shuffle([jaida, crystalm, gigi, jackie, heidi, widow, jan, brita, aiden, nicky, rock, dahlia]);
-
-let denali = new Queen("Denali Foxx", 6, 10, 9, 14, 9, 11, 15, 11, 9, 4, 1, "Denali", "Denali", "US13", false);
-let eliott = new Queen("Eliott with 2 Ts", 8, 7, 5, 14, 10, 8, 12, 8, 7, 0, 2, "Eliott", "Eliott", "US13", false);
-let gottmik = new Queen("Gottmik", 9, 12, 12, 6, 12, 15, 7, 10, 13, 4, 0, "Gottmik", "Gottmik", "US13", false);
-let joey = new Queen("Joey Jay", 8, 7, 9, 9, 5, 6, 8, 10, 10, 4, 1, "Joey", "Joey", "US13", false);
-let kahmora = new Queen("Kahmora Hall", 5, 5, 6, 5, 11, 15, 5, 9, 12, 3, 1, "Kahmora", "Kahmora", "US13", false);
-let kandy = new Queen("Kandy Muse", 8, 11, 10, 7, 8, 10, 13, 13, 14, 2, 5, "Kandy", "Kandy", "US13", false);
-let lalari = new Queen("LaLa Ri", 8, 7, 10, 10, 2, 5, 14, 10, 13, 4, 1, "Lala", "Lalari", "US13", false);
-let liv = new Queen("Liv Lux Miyake-Mugler", 9, 12, 8, 12, 10, 12, 10, 8, 11, 5, 0, "Liv", "Liv", "US13", false);
-let rose = new Queen("Rosé", 9, 10, 11, 11, 12, 13, 5, 10, 6, 3, 0, "Rose", "Rose", "US13", false);
-let symone = new Queen("Symone", 13, 11, 9, 6, 6, 15, 13, 15, 15, 4, 0, "Symone", "Symone", "US13", false);
-let tamisha = new Queen("Tamisha Iman", 9, 8, 7, 8, 8, 8, 8, 10, 12, 2, 1, "Tamisha", "Tamisha", 'US13', false);
-let tina = new Queen("Tina Burner", 10, 10, 11, 6, 5, 5, 7, 13, 8, 3, 2, "Tina", "Tina", "US13", false);
-let utica = new Queen("Utica Queen", 8, 7, 6, 11, 14, 15, 11, 10, 10, 4, 1, "Utica", "Utica", "US13", false);
-
-let US13 = shuffle([denali, eliott, gottmik, joey, kahmora, kandy, lalari, liv, rose, symone, tamisha, tina, utica]);
-//acting,improv,comedy,dance,design,runway,lipsync,branding,charisma
-let alyssah = new Queen("Alyssa Hunter", 6, 6, 7, 11, 12, 14, 8, 7, 7, 4, 2, "Alyssa", "Alyssa", "US14", false);
-let angeria = new Queen("Angeria Paris VanMicheals", 11, 11, 10, 7, 12, 12, 8, 10, 12, 5, 0, "Angeria", "Angeria", "US14", false);
-let bosco = new Queen("Bosco", 10, 14, 10, 8, 8, 8, 8, 12, 10, 4, 0, "Bosco", "Bosco", "US14", false);
-let daya = new Queen("Daya Betty", 12, 10, 10, 9, 10, 14, 8, 14, 15, 3, 3, "Daya", "Daya", "US14", false);
-let deja = new Queen("DeJa Skye", 9, 8, 12, 10, 8, 6, 13, 11, 10, 4, 1, "Deja", "Deja", "US14", false);
-let jasminek = new Queen("Jasmine Kennedie", 7, 7, 8, 15, 6, 10, 13, 10, 9, 5, 2, "Jasmine", "Jasmine", "US14", false);
-let jorgeous = new Queen("Jorgeous", 9, 8, 10, 15, 7, 9, 15, 12, 12, 4, 1, "Jorgeous", "Jorgeous", "US14", false);
-let junej = new Queen("June Jambalaya", 6, 7, 9, 12, 6, 8, 10, 8, 10, 3, 1, "June", "June", "US14", false);
-let kerri = new Queen("Kerri Colby", 9, 8, 10, 6, 5, 8, 6, 10, 15, 5, 0, "Kerri", "Kerri", "US14", false);
-let kornbread = new Queen("Kornbred \"The Snack\" Jeté", 11, 12, 13, 6, 6, 8, 8, 12, 10, 5, 1, "Kornbread", "Kornbread", "US14", false);
-let camden = new Queen("Lady Camden", 14, 11, 10, 12, 10, 12, 12, 8, 10, 4, 0, "Camden", "Camden", "US14", false);
-let maddym = new Queen("Maddy Morphosis", 12, 11, 12, 6, 5, 8, 6, 8, 12, 3, 1, "Maddy", "Maddy", "US14", false);
-let orion = new Queen("Orion Story", 7, 7, 8, 7, 10, 10, 11, 8, 6, 4, 2, "Orion", "Orion","US14", false);
-let willow = new Queen("Willow Pill", 12, 13, 11, 9, 14, 13, 12, 12, 14, 5, 1, "Willow", "Willow", "US14", false);
-
-let US14 = shuffle([alyssah, angeria, bosco, daya, deja, jasminek, jorgeous, junej, kerri, kornbread, camden, maddym, orion, willow]);
-
-let icesis = new Queen("Icesis Couture", 8, 9, 10, 11, 12, 14, 12, 10, 8, 4, 0, "Icesis", "Icesis", "CA2", false);
-let kendall = new Queen("Kendall Gender", 7, 9, 10, 8, 6, 10, 14, 10, 11, 4, 1, "Kendall", "Kendall", "CA2", false);
-let eve = new Queen("Eve 6000", 10, 8, 10, 4, 6, 12, 6, 15, 15, 4, 2, "Eve", "Eve", "CA2", false);
-let giam = new Queen("Gia Metric", 8, 10, 12, 14, 7, 10, 10, 6, 12, 2, 1, "Gia", "Gia", "CA2", false);
-let pythia = new Queen("Pythia", 10, 11, 8, 7, 12, 10, 5, 12, 13, 5, 0, "Pythia", "Pythia", "CA2", false);
-let adriana = new Queen("Adriana", 13, 9, 6, 7, 9, 12, 9, 12, 9, 3, 1, "Adrianna", "Adrianna", "CA2", false);
-let kimoraa = new Queen("Kimora Amour", 10, 9, 11, 8, 12, 8, 7, 12, 10, 5, 0, "Kimora", "Kimora", "CA2", false);
-let synthia = new Queen("Synthia Kiss", 11, 8, 12, 10, 5, 8, 13, 10, 12, 4, 0, "Synthia", "Synthia", "CA2", false);
-let suki = new Queen("Suki Doll", 10, 8, 7, 8, 15, 15, 6, 10, 11, 4, 0, "Suki", "Suki", "CA2", false);
-let oceane = new Queen("Océane Aqua-Black", 9, 10, 11, 6, 7, 10, 12, 10, 12, 5, 0, "Oceane", "Oceane", "CA2");
-let beth = new Queen("Beth", 8, 9, 10, 6, 5, 10, 8, 10, 10, 4, 0, "Beth", "Beth", "CA2", false);
-let stephanie = new Queen("Stephanie Prince", 8, 9, 7, 6, 10, 12, 10, 14, 10, 4 , 0, "Stephanie", "Stephanie", "CA2", false);
-
-let CA2 = shuffle([icesis, kendall, eve, giam, pythia, adriana, kimoraa, synthia, suki, oceane, beth, stephanie]);
-//acting,improv,comedy,dance,design,runway,lipsync,branding,charisma
-let anastarzia = new Queen("Anastarzia Anaquway", 7, 6, 8, 6, 9, 8, 6, 8, 10, 5, 0, "Anastarzia", "Anastarzia", "CA1", false);
-let boa = new Queen("BOA", 8, 9, 10, 7, 6, 5, 7, 9, 12, 3, 0, "BOA", "Boa", "CA1", false);
-let ilona = new Queen("Ilona Verley", 6, 7, 9, 6, 9, 8, 10, 8, 8, 2, 4, "Ilona", "Ilona","CA1",false);
-let jimbo = new Queen("Jimbo", 12, 11, 14, 4, 9, 10, 4, 10, 15, 2, 4, "Jimbo", "Jimbo", "CA1", false);
+let anastarzia = new Queen("Anastarzia Anaquway", 7, 6, 8, 7, 9, 8, 6, 8, 10, 5, 0, "Anastarzia", "Anastarzia", "CA1", false);
+let boa = new Queen("BOA", 7, 9, 9, 7, 6, 5, 5, 9, 12, 3, 0, "BOA", "Boa", "CA1", false);
+let ilona = new Queen("Ilona Verley", 6, 7, 9, 7, 9, 8, 11, 8, 8, 2, 4, "Ilona", "Ilona","CA1",false);
+let jimbo = new Queen("Jimbo", 12, 10, 14, 4, 8, 7, 3, 9, 12, 2, 4, "Jimbo", "Jimbo", "CA1", false);
 let juice = new Queen("Juice Boxx", 7, 6, 7, 6, 5, 9, 6, 7, 10, 4, 1, "Juice", "Juice", "CA1", false);
-let kiara = new Queen("Kiara", 8, 9, 6, 8, 10, 8, 8, 5, 6, 3, 0, "Kiara", "Kiara", "CA1", false);
-let kyne = new Queen("Kyne", 7, 7, 6, 8, 7, 6, 5, 10, 9, 2, 5, "Kyne", "Kyne", "CA1", false);
-let lemon = new Queen("Lemon", 12, 10, 10, 11, 6, 13, 13, 11, 13, 3, 3, "Lemon","Lemon","CA1",false);
-let priyanka = new Queen("Priyanka", 10, 12, 13, 10, 6, 9, 15, 15, 15, 4, 2, "Priyanka", "Priyanka", "CA1", false);
+let kiara = new Queen("Kiara",8, 9, 6, 7, 10, 8, 7, 5, 6, 3, 0, "Kiara", "Kiara", "CA1", false);
+let kyne = new Queen("Kyne", 7, 8, 6, 8, 7, 6, 6, 10, 12, 2, 5, "Kyne", "Kyne", "CA1", false);
+let lemon = new Queen("Lemon", 11, 9, 8, 10, 6, 13, 12, 8, 10, 3, 3, "Lemon","Lemon","CA1",false);
+let priyanka = new Queen("Priyanka", 8, 12, 13, 10, 6, 8, 15, 13, 12, 4, 2, "Priyanka", "Priyanka", "CA1", false);
 let rita = new Queen("Rita Baga", 8, 10, 12, 6, 10, 8, 12, 8, 10, 4, 1, "Rita", "Rita", "CA1", false);
-let scarlettbobo = new Queen("Scarlett BoBo", 11, 10, 8, 8, 10, 11, 13, 12, 10, 4, 1, "ScarlettBoBo", "ScarlettBoBo", "CA1", false);
-let tynomi = new Queen("Tynomi Banks", 7, 8, 9, 12, 8, 8, 13, 12, 10, 4, 2, "Tynomi", "Tynomi", "CA1", false);
+let scarlettbobo = new Queen("Scarlett BoBo", 12, 10, 8, 8, 10, 11, 13, 12, 10, 4, 1, "ScarlettBoBo", "ScarlettBoBo", "CA1", false);
+let tynomi = new Queen("Tynomi Banks", 6, 7, 9, 12, 8, 8, 13, 12, 10, 4, 2, "Tynomi", "Tynomi", "CA1", false);
 
 let CA1 = shuffle([anastarzia,boa,ilona,jimbo,juice,kiara,kyne,lemon,priyanka,rita,scarlettbobo,tynomi]);
-<<<<<<< HEAD
 
 
 let icesis = new Queen("Icesis Couture", 8, 9, 10, 11, 12, 14, 12, 10, 8, 4, 0, "Icesis", "Icesis", "CA2", false);
@@ -7737,8 +6866,6 @@ let stephanie = new Queen("Stephanie Prince", 8, 9, 7, 6, 10, 12, 10, 14, 10, 4 
 
 let CA2 = shuffle([icesis, kendall, eve, giam, pythia, adriana, kimoraa, synthia, suki, oceane, beth, stephanie]);
 
-=======
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
 
 let brookehost = new Host("Brooke Lynn Hytes", "BrookeIn", "BrookeOut");
 
@@ -7769,7 +6896,6 @@ let marisa = new Queen("Marisa Prisa", 7, 8, 6, 7, 7, 5, 7, 6, 5, 3, 1, "Marisa"
 
 let supremmehost = new Host("Supremme De Luxe","SupremmeIn","SupremmeOut");
 
-<<<<<<< HEAD
 let ES2 = shuffle([marina, estrella, venedita, juriji, sethlas, diamante, onyx, jota, samantha, arielr, marisa]);
 
 let amadiva = new Queen("Amadiva", 7, 7, 7, 7, 7, 7, 7, 7, 7, 0, 0, "Amadiva", "Amadiva", "TH1",false);
@@ -7837,11 +6963,6 @@ let DragRaceQueens = [
 
 ].sort((a, b) => a.GetName().localeCompare(b.GetName()));
 
-=======
-let rupaulhost = new Host("Rupaul","RuIn","RuOut");
-
-let ES2 = shuffle([marina, estrella, venedita, juriji, sethlas, diamante, onyx, jota, samantha, arielr, marisa]);
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
 //#endregion
 
 
@@ -8107,7 +7228,7 @@ function Finale()
           break;
 
         case 2:
-
+          
 
           if(CurrentSeason.currentCast[0].favoritism>=10)
           {
@@ -8134,7 +7255,7 @@ function Finale()
           }
           Steps++;
           break;
-
+          
         case 3:
           for (let q = 0; q < CurrentSeason.eliminatedCast.length; q++) {
             CurrentSeason.eliminatedCast[q].trackrecord.push('GUEST');
@@ -8279,7 +7400,6 @@ function Finale()
               {
                 if(4 - top4.length >= temp.length)
                 {
-<<<<<<< HEAD
                   for (let index = 0; index < temp.length; index++) {
                     top4.push(temp[index])
                     if(softlock==0)
@@ -8294,26 +7414,6 @@ function Finale()
                 {
                   tie = true;
                   Steps++;
-=======
-                  Main.createImage(Tops[randomtop].image,"#17d4ff");
-                  Main.createText( "You're safe.","");
-                  Tops[randomtop].trackrecord.push("HIGH");
-                  Tops[randomtop].favoritism += 1;
-                }
-                else if(CurrentChallenge.winner == true && doublewin == true)
-                {
-                  Main.createImage(Tops[randomtop].image,"#1741ff");
-                  Main.createText(Tops[randomtop].GetName()+", CONDRAGULATIONS! You're the other winner of this week main challenge.","Bold");
-                  Tops[randomtop].trackrecord.push("WIN");
-                  Tops[randomtop].favoritism += 5;
-                }
-                else
-                {
-                  Main.createImage(Tops[randomtop].image,"#17d4ff");
-                  Main.createText( "You are safe.","");
-                  Tops[randomtop].trackrecord.push("HIGH");
-                  Tops[randomtop].favoritism += 1;
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
                 }
               }
             }
@@ -8370,7 +7470,6 @@ function Finale()
           }
           else
           {
-<<<<<<< HEAD
             let queentext = "";
             let losersqueen = ""
             for (let index = 0; index < originaltop.length; index++) {
@@ -8387,13 +7486,6 @@ function Finale()
               Main.createText(queentext+", you are all in the top 4! ","Bold");
               Main.createText("Unfortunately that means...","Bold");
             Main.createText(losersqueen+", you will not be participating in tonight's lipsync smackdown.","Bold");
-=======
-            Main.createImage(Tops[randomtop].image,"#17d4ff");
-            Main.createText( "You are safe.","");
-            Tops[randomtop].trackrecord.push("HIGH");
-            Tops[randomtop].favoritism += 1;
-            Tops.splice(randomtop,1);
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
           }
 
           break;
@@ -8668,20 +7760,8 @@ function Placements() {
         Tops[i].finalscore += -7;
       }
     }
-<<<<<<< HEAD
     Tops.sort((a, b) => a.finalscore - b.finalscore);
     Bottoms.sort((a, b) => b.finalscore - a.finalscore);
-=======
-
-  if(Tops.length == 0 && Bottoms.length == 0)
-  {
-    Main.createButton("Proceed", "Lipsync()");
-  }
-  else
-  {
-    Main.createButton("Proceed", "Placements()");
-  }
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
 
     Main = new Screen();
     Main.clean();
@@ -8979,114 +8059,13 @@ function Placements() {
     }
   }
 }
-
+  
 
 function Lipsync() {
   Main = new Screen();
   Main.clean();
-<<<<<<< HEAD
     
   if(CurrentSeason.lipsyncformat == "LIFE")
-=======
-
-
-  switch(Steps){
-    case 0:
-      Main.createBigText("The time has come...");
-      for(let i = 0; i < BottomQueens.length; i++)
-      {
-        Main.createImage(BottomQueens[i].image,"#fa2525");
-      }
-      if(BottomQueens.length==2)
-      {
-        Main.createText("Two queens stand before me.", 'Bold');
-        Main.createText(BottomQueens[0].GetName()+" and "+BottomQueens[1].GetName()+", this is your last chance to impress me, and save yourself from elimination." , 'Bold');
-      }
-      else
-      {
-        Main.createText("Three queens stand before me." , 'Bold');
-        Main.createText(BottomQueens[0].GetName()+", "+BottomQueens[1].GetName()+" and "+BottomQueens[2].GetName()+", this is your last chance to impress me, and save yourself from elimination." , 'Bold');
-      }
-      break;
-    case 1:
-      Main.createBigText("The time has come...");
-      for(let i = 0; i < BottomQueens.length; i++)
-      {
-        Main.createImage(BottomQueens[i].image,"#fa2525");
-      }
-      Main.createText("The time has come...", 'Bold');
-      break;
-    case 2:
-      Main.createBigText("The time has come...");
-      for(let i = 0; i < BottomQueens.length; i++)
-      {
-        Main.createImage(BottomQueens[i].image,"#fa2525");
-      }
-      Main.createText("The time has come for you to lipsync...", 'Bold');
-      break;
-    case 3:
-      Main.createBigText("The time has come...");
-      for(let i = 0; i < BottomQueens.length; i++)
-      {
-        Main.createImage(BottomQueens[i].image,"#fa2525");
-      }
-      Main.createText("The time has come for you to lipsync for your LIFE!", 'Bold');
-      break;
-    case 4:
-      Main.createBigText("The time has come...");
-      Main.createText("The lipsync song is Fuego by Eleni Foureira.", 'Bold');
-      for(let i = 0; i < BottomQueens.length; i++)
-      {
-        Main.createImage(BottomQueens[i].image,"#fa2525");
-      }
-      Main.createText("Good luck and don't FUCK IT UP!", 'Bold');
-      break;
-    case 5:
-      Main.createBigText("The time has come...");
-      for(let i = 0; i < BottomQueens.length; i++)
-      {
-        Main.createImage(BottomQueens[i].image,"#fa2525");
-      }
-      Main.createText("Thank you for perfomances.", 'Bold');
-      Main.createText("I have made my decisions.", 'Bold');
-      break;
-    case 6:
-      Main.createBigText("Shantay you stay...");
-      for(let i = 0; i < BottomQueens.length; i++)
-      {
-        BottomQueens[i].GetLipsync();
-        BottomQueens[i].favoritism += -5;
-      }
-      BottomQueens.sort((a, b) => b.lipsyncscore - a.lipsyncscore);
-      Main.createImage(BottomQueens[0].image, "#ff8a8a");
-      Main.createText(BottomQueens[0].GetName()+", shantay you stay.", 'Bold');
-      BottomQueens[0].trackrecord.push("BOTTOM");
-      break;
-    case 7:
-      Main.createBigText("Sashay away...");
-      Main.createImageBW(BottomQueens[1].image, "#fa2525");
-      Main.createText(BottomQueens[1].GetName()+", my dear queen.", 'Bold');
-      Main.createText("I cannot wait for the world to fall in love with you, now. Sashay away...", 'Bold');
-      BottomQueens[1].trackrecord.push("ELIMINATED");
-      if(CurrentSeason.eliminatedCast.length==0)
-      {
-        BottomQueens[1].placement= CurrentSeason.fullCast.length-CurrentSeason.eliminatedCast.length;
-      }
-      else
-      {
-        BottomQueens[1].placement= CurrentSeason.fullCast.length-CurrentSeason.eliminatedCast.length;
-      }
-
-
-      CurrentSeason.currentCast.splice(CurrentSeason.currentCast.indexOf(BottomQueens[1]),1);
-      CurrentSeason.eliminatedCast.unshift(BottomQueens[1]);
-      break;
-  }
-  Steps++;
-  if(Steps<8)
-    Main.createButton("Proceed", "Lipsync()");
-  else
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
   {
     switch(Steps){
       case 0:
@@ -9413,7 +8392,6 @@ function GenerateChallenge()
   document.body.style.backgroundImage = 'url("Images/Backgrounds/MS.png")';
   Main = new Screen();
   Main.clean();
-<<<<<<< HEAD
     if( (CurrentChallenge.type=="BALL" && Steps==0) || (CurrentChallenge.type!="BALL"))
     {
       CurrentChallenge.createBrief();
@@ -9542,87 +8520,13 @@ function GenerateChallenge()
     else
     {
       Main.createButton("Proceed", "GenerateChallenge()");
-=======
-  CurrentChallenge.createBrief();
-  if(CurrentChallenge.type=="DESIGN")
-  {
-    for(let i = 0; i < CurrentSeason.currentCast.length; i++)
-    {
-      if(CurrentSeason.currentCast[i].miniwinner == true && CurrentChallenge.boxes.indexOf(CurrentChallenge.chosen) == -1)
-      {
-
-        Main.createImage(CurrentSeason.currentCast[i].image,'blue');
-        Main.createText(CurrentSeason.currentCast[i].GetName()+" as the winner of this week mini-challenge! You get 15 seconds of advance on the other queens.");
-        Main.createLine();
-      }
-      else if(CurrentSeason.currentCast[i].miniwinner == true)
-      {
-        Main.createImage(CurrentSeason.currentCast[i].image,'blue');
-        Main.createText(CurrentSeason.currentCast[i].GetName()+" as the winner of this week mini-challenge! You get to assign boxes to the other queens.");
-        Main.createLine();
-      }
-    }
-  }
-  else
-  {
-    Main.createLine();
-  }
-  if(CurrentChallenge.type=="RUSICAL")
-  {
-    for(let i = 0; i < CurrentSeason.currentCast.length; i++)
-    {
-      if(CurrentSeason.currentCast[i].miniwinner == true && CurrentChallenge.roles[CurrentChallenge.chosen].length!=0)
-      {
-
-        Main.createImage(CurrentSeason.currentCast[i].image,'blue');
-        Main.createText(CurrentSeason.currentCast[i].GetName()+" as the winner of this week mini-challenge! You get to assign the roles of the rusical to the other queens.")
-        Main.createLine();
-      }
-    }
-    shuffle(CurrentSeason.currentCast);
-    for(let i = 0; i < CurrentSeason.currentCast.length; i++)
-    {
-      if(CurrentChallenge.roles[CurrentChallenge.chosen].length!=0)
-      {
-        let randomrole = getRandomInt(0,CurrentChallenge.roles[CurrentChallenge.chosen].length-1);
-        Main.createImage(CurrentSeason.currentCast[i].image,'black');
-        Main.createText(CurrentSeason.currentCast[i].GetName()+" as been assigned to the role of : \""+CurrentChallenge.roles[CurrentChallenge.chosen][randomrole]+"\".");
-        CurrentSeason.currentCast.rusicalrole = CurrentChallenge.roles[CurrentChallenge.chosen][randomrole];
-        CurrentChallenge.roles[CurrentChallenge.chosen].splice(randomrole,1);
-      }
-    }
-
-  }
-  CurrentChallenge.rankPerfomances();
-  CurrentChallenge.createPerformances();
-
-  if(CurrentChallenge.hasrunway==true)
-  {
-    Main.createLine();
-    CurrentChallenge.rankRunways();
-    if((CurrentChallenge.finaleformat=="TOP3" || CurrentChallenge.finaleformat=="TOP3NE") && CurrentSeason.currentCast.length==3)
-    {
-      Main.createText("The runway theme, this week is : Best Drag.");
-    }
-    else if(CurrentSeason.finaleformat == "TOP3" && CurrentSeason.currentCast.length==3)
-    {
-      Main.createText("The runway theme, this week is : Best Drag.");
-    }
-    else if(CurrentSeason.finaleformat == "TOP3" && CurrentSeason.currentCast.length==3)
-    {
-      Main.createText("The runway theme, this week is : Best Drag.");
-    }
-    else
-    {
-      Main.createText("The runway theme, this week is : "+RunwaysTheme[getRandomInt(0,RunwaysTheme.length-1)]);
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
     }
 }
 
 
 function GetPromoTable()
   {
-
+    
     SlayedChallenge = [];
     GreatChallenge = [];
     GoodChallenge = [];
@@ -9649,7 +8553,7 @@ function GetPromoTable()
     Main.createBigText("Placements");
     Main.clean();
     Main.createPromoTable();
-
+    
     if(CurrentSeason.episodes.length == 0)
     {
       Main.createButton("Proceed","Intro()");
@@ -9661,7 +8565,7 @@ function GetPromoTable()
   }
 
 function LaunchMiniChallenge()
-{
+{ 
   Main = new Screen();
   Main.createBigText("In the workroom...");
   document.body.style.backgroundImage = 'url("Images/Backgrounds/Workroom.png")';
@@ -9897,7 +8801,7 @@ function ChallengeAnnouncement(){
 
     Announcement = new Screen();
     Announcement.clean();
-
+    
     Announcement.createRupaulAnnouncement("Welcome queens!");
     Announcement.createRupaulAnnouncement("First of all let me give you all a warm welcome.");
     Announcement.createRupaulAnnouncement("You all made it here. You are all the very best.");
@@ -9964,7 +8868,6 @@ function ChallengeAnnouncement(){
         CurrentSeason.episodes.push(CurrentEpisode);
         CurrentSeason.rusicals++;
       }
-<<<<<<< HEAD
       else if(getRandomInt(0,100)>=85 && CurrentSeason.balls <2)
       {
         CurrentChallenge = new Ball();
@@ -9986,8 +8889,6 @@ function ChallengeAnnouncement(){
         CurrentSeason.episodes.push(CurrentEpisode);
         CurrentSeason.makeoverchallenges++;
       }
-=======
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
       else
       {
         switch(getRandomInt(0,6))
@@ -10051,12 +8952,8 @@ function RankQueens(){
     Safes = [];
     switch(CurrentSeason.lipsyncformat)
     {
-<<<<<<< HEAD
       case "LIFE":
       if(CurrentSeason.currentCast.length>=12)
-=======
-      for(let i = 0; i<3; i++)
->>>>>>> 5a69a7c8e0faa6cd33d36f6b23625e790fd12ac6
       {
         for(let i = 0; i<4; i++)
         {
